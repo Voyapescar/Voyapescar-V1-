@@ -10,12 +10,11 @@ import {
   Alert,
   Dimensions,
 } from 'react-native';
-import MapView, { Marker } from 'react-native-maps'; // Importamos MapView y Marker estándar
+import MapView, { Marker } from 'react-native-maps';
 import axios from 'axios';
 import * as Location from 'expo-location';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
-// Asegúrate que el nombre y la ruta sean exactos
 import { puntosDePesca as todosLosPuntosOriginales } from '../data/PuntosDePesca';
 import { WEATHER_API_KEY, WEATHER_API_BASE_URL } from '../constants/apiConfig';
 import LugarDetailsModal from '../components/LugarDetailsModal';
@@ -23,8 +22,29 @@ import ModalFiltros from '../components/ModalFiltros';
 
 const { width, height } = Dimensions.get('window');
 const ASPECT_RATIO = width / height;
-const INITIAL_LATITUDE_DELTA = 18; // Zoom para ver gran parte de Chile
+const INITIAL_LATITUDE_DELTA = 18;
 const INITIAL_LONGITUDE_DELTA = INITIAL_LATITUDE_DELTA * ASPECT_RATIO;
+
+// --- INICIO DE MODIFICACIÓN: Función para obtener color por tipo ---
+const getColorForTipo = (tipo) => {
+  switch (tipo) {
+    case 'Lago':
+      return 'blue'; // Azul para lagos
+    case 'Playa':
+      return 'gold'; // Amarillo/Dorado para playas
+    case 'Rio':
+      return 'green'; // Verde para ríos
+    case 'Embalse':
+      return 'aqua'; // Celeste/Agua para embalses
+    case 'Desembocadura':
+      return 'purple'; // Morado para desembocaduras
+    case 'Caleta':
+      return 'tomato'; // Naranja/Tomate para caletas
+    default:
+      return 'red'; // Color por defecto si el tipo no coincide
+  }
+};
+// --- FIN DE MODIFICACIÓN ---
 
 export default function PantallaMapa({ navigation }) {
   const [modalLugarVisible, setModalLugarVisible] = useState(false);
@@ -33,7 +53,7 @@ export default function PantallaMapa({ navigation }) {
   const [weatherData, setWeatherData] = useState(null);
   const [isLoadingWeather, setIsLoadingWeather] = useState(false);
   const [userLocation, setUserLocation] = useState(null);
-  const mapRef = useRef(null); // Ref para el MapView estándar
+  const mapRef = useRef(null);
 
   const [filtrosAplicados, setFiltrosAplicados] = useState({
     tipo: null,
@@ -53,7 +73,6 @@ export default function PantallaMapa({ navigation }) {
   });
 
   useEffect(() => {
-    // Asegurarnos que todosLosPuntosOriginales esté definido y sea un array
     if (!Array.isArray(todosLosPuntosOriginales) || todosLosPuntosOriginales.length === 0) {
       console.warn("PantallaMapa: todosLosPuntosOriginales no está disponible o está vacío al generar opciones.");
       setOpcionesTipo(['Todos los Tipos']);
@@ -63,12 +82,6 @@ export default function PantallaMapa({ navigation }) {
       return;
     }
 
-    // Si tus tipos en PuntosDePesca.js ya están capitalizados, no necesitas la función capitalizarPrimeraLetra aquí.
-    // Si están en minúscula y quieres que se muestren capitalizados en el Picker:
-    // const capitalizarPrimeraLetra = (string) => string ? string.charAt(0).toUpperCase() + string.slice(1) : '';
-    // const tiposUnicos = [...new Set(todosLosPuntosOriginales.map(p => p.tipo).filter(Boolean).map(capitalizarPrimeraLetra))].sort();
-
-    // Asumiendo que ya están capitalizados en PuntosDePesca.js:
     const tiposUnicos = [...new Set(todosLosPuntosOriginales.map(p => p.tipo).filter(Boolean))].sort();
     const regionesUnicas = [...new Set(todosLosPuntosOriginales.map(p => p.region).filter(Boolean))].sort();
     const especiesUnicas = [...new Set(
@@ -80,7 +93,7 @@ export default function PantallaMapa({ navigation }) {
     setOpcionesEspecie(['Todas las Especies', ...especiesUnicas]);
     setPuntosMostrados(todosLosPuntosOriginales);
     getCurrentLocation();
-  }, []); // Se ejecuta solo una vez
+  }, []);
 
   useEffect(() => {
     if (!Array.isArray(todosLosPuntosOriginales)) {
@@ -174,7 +187,7 @@ export default function PantallaMapa({ navigation }) {
   return (
     <SafeAreaView style={styles.safeContainer}>
       <View style={styles.container}>
-        <MapView // Usamos MapView estándar
+        <MapView
           ref={mapRef}
           style={styles.map}
           mapType="hybrid"
@@ -195,8 +208,10 @@ export default function PantallaMapa({ navigation }) {
                 title={punto.nombre || 'Punto Desconocido'}
                 description={punto.tipo || ''}
                 onPress={() => abrirModalDetalles(punto)}
-                pinColor="dodgerblue" // Color original o el que prefieras
-                // tracksViewChanges={false} // Considera habilitar si hay muchos marcadores y notas lentitud
+                // --- INICIO DE MODIFICACIÓN: Aplicar color dinámico ---
+                pinColor={getColorForTipo(punto.tipo)}
+                // --- FIN DE MODIFICACIÓN ---
+                // tracksViewChanges={false} 
               />
             );
           })}

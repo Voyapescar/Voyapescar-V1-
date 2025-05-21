@@ -120,7 +120,7 @@ const LugarDetailsModal = ({ visible, lugar, weatherData, isLoading, onClose }) 
           <Text style={styles.label}>Información de especies no disponible para este lugar.</Text>
         )}
         <Text style={[styles.label, {marginTop: 10}]}>
-          <Text style={styles.boldText}>Cuota General del Lugar:</Text> <Text style={styles.infoText}>{cuotaPescaGeneral}</Text>
+          <Text style={styles.boldText}>Cuota de pesca del lugar:</Text> <Text style={styles.infoText}>{cuotaPescaGeneral}</Text>
         </Text>
         <TouchableOpacity onPress={() => handleLinkPress(SERNAPESCA_REGULACIONES_URL)}>
           <Text style={[styles.linkText, {marginTop:10}]}>Consultar Normativa Oficial VIGENTE en SERNAPESCA</Text>
