@@ -344,7 +344,7 @@ const styles = StyleSheet.create({
   especieTouchable: { paddingVertical: 8 },
   especieHeader: { flexDirection: 'row', alignItems: 'center' },
   especieImagen: {
-    width: 120,
+    width: 180,
     height: 80,
     borderRadius: 4,
     marginRight: 10,

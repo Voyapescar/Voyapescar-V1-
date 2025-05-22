@@ -3891,29 +3891,54 @@
     {
       nombreComun: 'Jurel',
       nombreCientifico: 'Trachurus murphyi',
-      imageAsset: require('../imagenes/jurel.png'), // Asegúrate de tener esta imagen
-      caracteristicas: 'Cuerpo alargado y comprimido, línea lateral con escudetes. Color azul verdoso en el dorso. Presente en aguas costeras y pelágicas del Pacífico. Forma cardúmenes y es depredador activo.', // Basado en TNC Litorales PDF p.23
-      senuelos: ["Vinilos", "Jigs", "Minnow", "Plumillas", "Sabiki"], // Sabiki incluido
-      carnadas: ["Gusanos de mar", "Camarones", "Filete de pescado"], // "Masa" (similar a pan) eliminada
+      imageAsset: require('../imagenes/jurel.png'),
+      caracteristicas: 'Cuerpo alargado y comprimido, línea lateral con escudetes. Color azul verdoso en el dorso. Presente en aguas costeras y pelágicas del Pacífico. Forma cardúmenes y es depredador activo.',
+      senuelos: ["Vinilos", "Jigs", "Minnow", "Plumillas", "Sabiki"],
+      carnadas: ["Gusanos de mar", "Camarones", "Filete de pescado"],
     },
     {
       nombreComun: 'Tomoyo',
-      nombreCientifico: 'Labrisomidae', // Familia de varias especies de Tomoyos/Chalacos
-      imageAsset: require('../imagenes/tomoyo.png'), // Puedes agregar una imagen específica si la tienes
-      caracteristicas: 'Cuerpo delgado, presencia de cirros en la cabeza. Colores crípticos. Habita roqueríos y pozas intermareales. Territorial y cazador de invertebrados.', // Info general, ver TNC Litorales p.11 / Sernapesca Marinas PDF p.34
+      nombreCientifico: 'Labrisomidae',
+      imageAsset: require('../imagenes/tomoyo.png'),
+      caracteristicas: 'Cuerpo delgado, presencia de cirros en la cabeza. Colores crípticos. Habita roqueríos y pozas intermareales. Territorial y cazador de invertebrados.',
       senuelos: ["Jig", "Vinilo", "Minnow"],
-      carnadas: ["Pulga de mar", "Pequeños mariscos", "Camarón de roca"], // Basado en TNC Litorales p.11
+      carnadas: ["Pulga de mar", "Pequeños mariscos", "Camarón de roca"],
     },
     {
       nombreComun: 'Cabrilla Común',
-      nombreCientifico: 'Paralabrax humeralis', // Común en roqueríos y estructuras
-      imageAsset: require('../imagenes/cabrilla.png'), // Puedes agregar una imagen específica si la tienes
-      caracteristicas: 'Cuerpo robusto, color café a gris con manchas oscuras dispersas. Se halla en roqueríos y estructuras submarinas del litoral. Territorial y emboscador, se alimenta de peces y crustáceos, escondiéndose entre grietas.', // Basado en TNC Litorales p.12
-      senuelos: ["Jigs", "Vinilos"], // Basado en TNC Litorales p.12
-      carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"], // Basado en TNC Litorales p.12
+      nombreCientifico: 'Paralabrax humeralis',
+      imageAsset: require('../imagenes/cabrilla.png'),
+      caracteristicas: 'Cuerpo robusto, color café a gris con manchas oscuras dispersas. Se halla en roqueríos y estructuras submarinas del litoral. Territorial y emboscador, se alimenta de peces y crustáceos, escondiéndose entre grietas.',
+      senuelos: ["Jigs", "Vinilos"],
+      carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
+    },
+    {
+      nombreComun: 'Corvina',
+      nombreCientifico: 'Cilus gilberti',
+      imageAsset: require('../imagenes/corvina.png'),
+      caracteristicas: 'Cuerpo alargado, plateado, con aletas puntiagudas. Habita playas arenosas y estuarios. Se acerca a la costa al amanecer y atardecer para cazar peces y moluscos.',
+      senuelos: ["Chispa", "Minnow", "Jig", "Vinilos", "Metal vibs grandes", "Plumillas", "Bucktail"],
+      carnadas: ["Pulga de mar", "Nape", "Pejerrey", "Sardina", "Moluscos ocasionalmente (Lapa , Piure , Almeja)", "Gueple de mar (lombriz)"],
+    },
+    {
+      nombreComun: 'Lenguado Chileno',
+      nombreCientifico: 'Paralichthys adspersus',
+      imageAsset: require('../imagenes/lenguado.png'),
+      caracteristicas: 'Plano y asimétrico, ojos en un solo lado del cuerpo. Tonos marrones o arenosos. Habita fondos blandos y arenosos de la costa chilena. Cazador de emboscada que se entierra en la arena.',
+      senuelos: ["Vinilos que imiten peces pequeños", "Jigs ligeros", "Señuelos tipo pejerrey"],
+      carnadas: ["Pejerrey (vivo o muerto)", "Sardina", "Filete de pescado"],
+    },
+    {
+      nombreComun: 'Pejerrey de Mar',
+      nombreCientifico: 'Odontesthes regia',
+      imageAsset: require('../imagenes/pejerrey-de-mar.png'),
+      caracteristicas: 'Alargado y comprimido, línea lateral bien definida. Tonalidad plateada. Común en playas y roqueríos. Nada en aguas superficiales y se alimenta de larvas y peces pequeños.',
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
     }
   ],
 },
+
 {
   id: 88,
   nombre: 'Laguna Verde',
@@ -4003,7 +4028,7 @@
     {
       nombreComun: 'Cabinza',
       nombreCientifico: 'Isacia conceptionis',
-      imageAsset: null, // No tenemos imagen definida para Cavinza
+      imageAsset: require('../imagenes/cabinza.png'), // No tenemos imagen definida para Cavinza
       caracteristicas: 'Cuerpo alargado y comprimido, cabeza prominente. Coloración oscura con reflejos plateados. Se encuentra en zonas costeras rocosas y arenosas del centro y norte de Chile. Es un cazador oportunista de peces pequeños y crustáceos.', // Sernapesca Marinas PDF p.39 / TNC Litorales PDF p.22
       senuelos: ["Plumillas (tipo sabiki con anzuelos pequeños)", "Jigs muy pequeños y brillantes"], // Sernapesca Marinas PDF p.39 / TNC Litorales PDF p.22
       carnadas: ["Gusanos de mar (trozos pequeños)", "Camarón pequeño", "Pulga de mar", "Trocitos de pescado"], // Sernapesca Marinas PDF p.39 / TNC Litorales PDF p.22
