@@ -94,7 +94,7 @@ export default function PantallaMapa({ navigation }) {
     setPuntosMostrados(todosLosPuntosOriginales);
     getCurrentLocation();
   }, []);
-
+  
   useEffect(() => {
     if (!Array.isArray(todosLosPuntosOriginales)) {
         setPuntosMostrados([]);

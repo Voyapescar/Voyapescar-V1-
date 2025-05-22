@@ -9,12 +9,12 @@
       tipo: 'Embalse', // Capitalizado
       region: 'Coquimbo',
       cuota: 'Consultar la información actualizada de SERNAPESCA, ya que las regulaciones pueden cambiar.',
-      imagenFondoSecciones: null,
+      imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
       especies: [
         {
           nombreComun: 'Pejerrey Argentino',
           nombreCientifico: 'Odontesthes bonariensis',
-          imageAsset: null,
+          imageAsset: require('../imagenes/pejerrey-argentino.png'),
           caracteristicas: 'Cuerpo comprimido lateralmente, tonos plateados con dorso verdoso/azulado y franja plateada lateral nítida. Boca protráctil. Principal objetivo en embalses de la zona.',
           senuelos: ["Minnow pequeño", "Vinilos pequeños", "Spinner en numeración pequeña", "Microjigs", "Moscas"],
           carnadas: ["Tebo", "Lombriz", "Mojarra o Gambusia", "Trozos pequeños de pez", "Masas preparadas"],
@@ -73,7 +73,7 @@
       tipo: 'Lago', // Capitalizado
       region: 'Arica y Parinacota',
       cuota: 'Consultar la información actualizada de SERNAPESCA, ya que las regulaciones pueden cambiar.',
-      imagenFondoSecciones: null,
+      imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
       especies: [
         {
           nombreComun: 'Trucha arcoiris',
@@ -635,7 +635,7 @@
       region: 'Tarapacá / Antofagasta',
       // ... (resto igual)
       cuota: 'Consultar la información actualizada de SERNAPESCA, ya que las regulaciones pueden cambiar.',
-      imagenFondoSecciones: null,
+      imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
       especies: [
         {
           nombreComun: 'Corvina',
@@ -658,8 +658,8 @@
           nombreCientifico: 'Odontesthes regia',
           imageAsset: require('../imagenes/pejerrey-de-mar.png'),
           caracteristicas: 'Gris pizarra, plateado oscuro en lomo, claro en vientre. Aletas y cola con tonos amarillo verdoso. Franja plateada lateral notoria.',
-          senuelos: ['Aparejo de pejerrey', 'Pluma brillante'],
-          carnadas: ['Gueple de mar', 'Camarón'],
+          senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+          carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
         }
       ],
     },
@@ -672,7 +672,7 @@
       region: 'Valparaíso',
       // ... (resto igual)
       cuota: 'Consultar la información actualizada de SERNAPESCA, ya que las regulaciones pueden cambiar.',
-      imagenFondoSecciones: null,
+      imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
       especies: [
         {
           nombreComun: 'Corvina',
@@ -703,8 +703,8 @@
           nombreCientifico: 'Odontesthes regia',
           imageAsset: require('../imagenes/pejerrey-de-mar.png'),
           caracteristicas: 'Color gris pizarra, plateado oscuro en lomo, claro en vientre. Aletas y cola con tonos amarillo verdoso. Franja plateada lateral notoria.',
-          senuelos: ['Aparejo de pejerrey', 'Mosca'],
-          carnadas: ['Gueple de mar', 'Camarón pequeño', 'Machita'],
+          senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+          carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
         }
       ],
     },
@@ -717,7 +717,7 @@
       region: 'Magallanes',
       // ... (resto igual)
       cuota: 'Consultar la información actualizada de SERNAPESCA, ya que las regulaciones pueden cambiar.',
-      imagenFondoSecciones: null,
+      imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
       especies: [
         {
           nombreComun: 'Trucha marrón (Sea-run Brown Trout / Trucha de Mar)',
@@ -746,7 +746,7 @@
       region: 'Los Lagos',
       // ... (resto igual)
       cuota: 'Consultar la información actualizada de SERNAPESCA, ya que las regulaciones pueden cambiar.',
-      imagenFondoSecciones: null,
+      imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
       especies: [
         {
           nombreComun: 'Trucha arcoiris',
@@ -799,7 +799,7 @@
       region: 'Aysén',
       // ... (resto igual)
       cuota: 'Consultar la información actualizada de SERNAPESCA, ya que las regulaciones pueden cambiar.',
-      imagenFondoSecciones: null,
+      imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
       especies: [
         {
           nombreComun: 'Trucha marrón (Fario)',
@@ -836,7 +836,7 @@
       region: 'Antofagasta',
       // ... (resto igual)
       cuota: 'Consultar la información actualizada de SERNAPESCA, ya que las regulaciones pueden cambiar.',
-      imagenFondoSecciones: null,
+      imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
       especies: [
         {
           nombreComun: 'Corvina',
@@ -849,7 +849,7 @@
         {
           nombreComun: 'Sargo',
           nombreCientifico: 'Anisotremus scapularis',
-          imageAsset: null,
+          imageAsset: require('../imagenes/sargo.png'),
           caracteristicas: 'Cuerpo comprimido y alto, color gris plateado con mancha negra distintiva en opérculo y base de aletas. Habita aguas litorales, fondos rocosos y arenosos.',
           senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"],
           carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"],
@@ -857,7 +857,7 @@
         {
           nombreComun: 'Cabrilla Común',
           nombreCientifico: 'Paralabrax humeralis',
-          imageAsset: null,
+          imageAsset: require('../imagenes/cabrilla.png'),
           caracteristicas: 'Cuerpo robusto, coloración variable café-rojiza a gris con manchas oscuras. Vive en fondos rocosos, cazador de emboscada.',
           senuelos: ["Jigs", "Vinilos"],
           carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
@@ -865,7 +865,7 @@
         {
           nombreComun: 'Rollizo',
           nombreCientifico: 'Pinguipes chilensis',
-          imageAsset: null,
+          imageAsset: require('../imagenes/rollizo.png'),
           caracteristicas: 'Cuerpo alargado, frente aplastada, labios gruesos amarillos. Dos bandas longitudinales de manchas claras. Habita roqueríos y fondos de arena.',
           senuelos: ["Jig", "Vinilo", "Minnow"],
           carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
@@ -873,7 +873,7 @@
         {
           nombreComun: 'Tomoyo',
           nombreCientifico: 'Labrisomus philippii',
-          imageAsset: null,
+          imageAsset: require('../imagenes/tomoyo.png'),
           caracteristicas: 'Peces de cuerpo alargado, cirros presentes alrededor de los ojos. Dimorfismo sexual en color y tamaño; machos más grandes y robustos.',
           senuelos: ["Jig", "Vinilo", "Minnow"],
           carnadas: ["Pulga de mar", "Pequeños mariscos", "Camarón de roca"],
@@ -889,7 +889,7 @@
       region: 'Tarapacá',
       // ... (resto igual)
       cuota: 'Consultar la información actualizada de SERNAPESCA, ya que las regulaciones pueden cambiar.',
-      imagenFondoSecciones: null,
+      imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
       especies: [
         {
           nombreComun: 'Corvina',
@@ -910,7 +910,7 @@
         {
           nombreComun: 'Sargo',
           nombreCientifico: 'Anisotremus scapularis',
-          imageAsset: null,
+          imageAsset: require('../imagenes/sargo.png'),
           caracteristicas: 'Cuerpo comprimido y alto, color gris plateado con mancha negra distintiva en opérculo y base de aletas. Habita aguas litorales, fondos rocosos y arenosos.',
           senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"],
           carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"],
@@ -918,7 +918,7 @@
         {
           nombreComun: 'Cabrilla Común',
           nombreCientifico: 'Paralabrax humeralis',
-          imageAsset: null,
+          imageAsset: require('../imagenes/cabrilla.png'),
           caracteristicas: 'Cuerpo robusto, coloración variable café-rojiza a gris con manchas oscuras. Vive en fondos rocosos, cazador de emboscada.',
           senuelos: ["Jigs", "Vinilos"],
           carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
@@ -926,7 +926,7 @@
         {
           nombreComun: 'Rollizo',
           nombreCientifico: 'Pinguipes chilensis',
-          imageAsset: null,
+          imageAsset: require('../imagenes/rollizo.png'),
           caracteristicas: 'Cuerpo alargado, frente aplastada, labios gruesos amarillos. Dos bandas longitudinales de manchas claras. Habita roqueríos y fondos de arena.',
           senuelos: ["Jig", "Vinilo", "Minnow"],
           carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
@@ -942,7 +942,7 @@
       region: 'Maule',
       // ... (resto igual)
       cuota: 'Consultar la información actualizada de SERNAPESCA, ya que las regulaciones pueden cambiar.',
-      imagenFondoSecciones: null,
+      imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
       especies: [
         {
           nombreComun: 'Corvina',
@@ -971,15 +971,15 @@
         {
           nombreComun: 'Sargo',
           nombreCientifico: 'Anisotremus scapularis',
-          imageAsset: null,
+          imageAsset: require('../imagenes/sargo.png'),
           caracteristicas: 'Cuerpo comprimido y alto, color gris plateado con mancha negra distintiva en opérculo y base de aletas. Habita aguas litorales, fondos rocosos y arenosos.',
           senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"],
           carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"],
         },
         {
-          nombreComun: 'Jerguilla Común',
+          nombreComun: 'Jerguilla',
           nombreCientifico: 'Aplodactylus punctatus',
-          imageAsset: null,
+          imageAsset: require('../imagenes/jerguilla.png'),
           caracteristicas: 'Color verde con puntos más oscuros, aunque existe variedad amarilla (reina). Herbívora, habita roqueríos sublitorales y vive en comunidad.',
           senuelos: ["Vinilo", "Jig"],
           carnadas: ["Algas (luche)", "Piures", "Pequeños crustáceos", "Pequeños mariscos"],
@@ -989,13 +989,13 @@
     {
       id: 25,
       nombre: 'Playa de Matanzas',
-      latitude: -33.9630,
-      longitude: -71.8750,
+      latitude: -33.96161610875899, 
+      longitude: -71.87542209889685,
       tipo: 'Playa', // Capitalizado
       region: 'O\'Higgins',
       // ... (resto igual)
       cuota: 'Consultar la información actualizada de SERNAPESCA, ya que las regulaciones pueden cambiar.',
-      imagenFondoSecciones: null,
+      imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
       especies: [
         {
           nombreComun: 'Corvina',
@@ -1016,15 +1016,15 @@
         {
           nombreComun: 'Sargo',
           nombreCientifico: 'Anisotremus scapularis',
-          imageAsset: null,
+          imageAsset: require('../imagenes/sargo.png'),
           caracteristicas: 'Cuerpo comprimido y alto, color gris plateado con mancha negra distintiva en opérculo y base de aletas. Habita aguas litorales, fondos rocosos y arenosos.',
           senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"],
           carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"],
         },
         {
-          nombreComun: 'Bilagay / Pintacha (Breca)',
+          nombreComun: 'Bilagay',
           nombreCientifico: 'Cheilodactylus variegatus',
-          imageAsset: null,
+          imageAsset: require('../imagenes/bilagay.png'),
           caracteristicas: 'Cuerpo robusto, levemente comprimido, cubierto por escamas ctenoides. Pequeña boca con labios notorios. Habita rocas con algas.',
           senuelos: ["Jig", "Vinilo"],
           carnadas: ["Gueple de mar", "Pulga de mar", "Pequeños mariscos"],
@@ -1040,7 +1040,7 @@
       region: 'Biobío',
       // ... (resto igual)
       cuota: 'Consultar la información actualizada de SERNAPESCA, ya que las regulaciones pueden cambiar.',
-      imagenFondoSecciones: null,
+      imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
       especies: [
         {
           nombreComun: 'Corvina',
@@ -1063,8 +1063,8 @@
           nombreCientifico: 'Odontesthes regia',
           imageAsset: require('../imagenes/pejerrey-de-mar.png'),
           caracteristicas: 'Color gris pizarra, plateado oscuro en lomo, claro en vientre. Aletas y cola con tonos amarillo verdoso. Franja plateada lateral notoria.',
-          senuelos: ['Aparejo de pejerrey', 'Mosca'],
-          carnadas: ['Gueple de mar', 'Jibia', 'Piure', 'Almeja pequeña'],
+          senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+          carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
         },
         {
           nombreComun: 'Lenguado Chileno',
@@ -1093,7 +1093,7 @@
       region: 'Coquimbo',
       // ... (resto igual)
       cuota: 'Consultar la información actualizada de SERNAPESCA, ya que las regulaciones pueden cambiar.',
-      imagenFondoSecciones: null,
+      imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
       especies: [
         {
           nombreComun: 'Corvina',
@@ -1114,7 +1114,7 @@
         {
           nombreComun: 'Sargo',
           nombreCientifico: 'Anisotremus scapularis',
-          imageAsset: null,
+          imageAsset: require('../imagenes/sargo.png'),
           caracteristicas: 'Cuerpo comprimido y alto, color gris plateado con mancha negra distintiva en opérculo y base de aletas. Habita aguas litorales, fondos rocosos y arenosos.',
           senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"],
           carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"],
@@ -1122,7 +1122,7 @@
         {
           nombreComun: 'Rollizo',
           nombreCientifico: 'Pinguipes chilensis',
-          imageAsset: null,
+          imageAsset: require('../imagenes/rollizo.png'),
           caracteristicas: 'Cuerpo alargado, frente aplastada, labios gruesos amarillos. Dos bandas longitudinales de manchas claras. Habita roqueríos y fondos de arena.',
           senuelos: ["Jig", "Vinilo", "Minnow"],
           carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
@@ -1130,7 +1130,7 @@
         {
           nombreComun: 'Pejeperro',
           nombreCientifico: 'Semicossyphus darwini',
-          imageAsset: null,
+          imageAsset: require('../imagenes/pejeperro.png'),
           caracteristicas: 'Cuerpo alargado, perfil cóncavo en la cabeza. Juveniles rojos con mancha amarilla tras la cabeza; adultos gris azulado con mancha amarilla. Mentón blanco.',
           senuelos: ["Vinilo", "Jig", "Minnow"],
           carnadas: ["Jaiba", "Erizo", "Choro zapato", "Lapa", "Camarón", "Chitones", "Almejas"],
@@ -1146,7 +1146,7 @@
       region: 'Arica y Parinacota',
       // ... (resto igual)
       cuota: 'Consultar la información actualizada de SERNAPESCA, ya que las regulaciones pueden cambiar.',
-      imagenFondoSecciones: null,
+      imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
       especies: [
         {
           nombreComun: 'Corvina',
@@ -1167,7 +1167,7 @@
         {
           nombreComun: 'Sargo',
           nombreCientifico: 'Anisotremus scapularis',
-          imageAsset: null,
+          imageAsset: require('../imagenes/sargo.png'),
           caracteristicas: 'Cuerpo comprimido y alto, color gris plateado con mancha negra distintiva en opérculo y base de aletas. Habita aguas litorales, fondos rocosos y arenosos.',
           senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"],
           carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"],
@@ -1175,7 +1175,7 @@
         {
           nombreComun: 'Cabinza',
           nombreCientifico: 'Isacia conceptionis',
-          imageAsset: null,
+          imageAsset: require('../imagenes/cabinza.png'),
           caracteristicas: 'Cuerpo fusiforme, moderadamente comprimido. Color gris-plateado, dorso más oscuro. Aleta dorsal larga con una profunda incisión en forma de V.',
           senuelos: ["Jig", "Vinilo", "Plumillas"],
           carnadas: ["Pequeños trozos de camarón o filete de pescado", "lapa", "piure", "mariscos pequeños"],
@@ -1185,8 +1185,8 @@
           nombreCientifico: 'Odontesthes regia',
           imageAsset: require('../imagenes/pejerrey-de-mar.png'),
           caracteristicas: 'Gris pizarra, plateado oscuro en lomo, claro en vientre. Aletas y cola con tonos amarillo verdoso. Franja plateada lateral notoria.',
-          senuelos: ['Aparejo de pejerrey', 'Mosca'],
-          carnadas: ['Gueple de mar', 'Camarón de roca', 'Piure'],
+          senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+          carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
         }
       ],
     },
@@ -1199,7 +1199,7 @@
       region: 'Atacama',
       // ... (resto igual)
       cuota: 'Consultar la información actualizada de SERNAPESCA, ya que las regulaciones pueden cambiar.',
-      imagenFondoSecciones: null,
+      imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
       especies: [
         {
           nombreComun: 'Corvina',
@@ -1220,7 +1220,7 @@
         {
           nombreComun: 'Sargo',
           nombreCientifico: 'Anisotremus scapularis',
-          imageAsset: null,
+          imageAsset: require('../imagenes/sargo.png'),
           caracteristicas: 'Cuerpo comprimido y alto, color gris plateado con mancha negra distintiva en opérculo y base de aletas. Habita aguas litorales, fondos rocosos y arenosos.',
           senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"],
           carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"],
@@ -1228,7 +1228,7 @@
         {
           nombreComun: 'Cojinova del Norte',
           nombreCientifico: 'Seriolella violacea',
-          imageAsset: null,
+          imageAsset: require('../imagenes/cojinova-del-norte.png'),
           caracteristicas: 'Cuerpo fusiforme, dorso azul-negruzco, flancos y vientre plateados. Ojos pequeños rodeados de tejido adiposo (como máscara). Aleta dorsal larga.',
           senuelos: ["Jig", "Vinilo", "Chispa"],
           carnadas: ["Sardina", "Pejerrey"],
@@ -1244,7 +1244,7 @@
       region: 'Antofagasta',
       // ... (resto igual)
       cuota: 'Consultar la información actualizada de SERNAPESCA, ya que las regulaciones pueden cambiar.',
-      imagenFondoSecciones: null,
+      imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
       especies: [
         {
           nombreComun: 'Corvina',
@@ -1265,7 +1265,7 @@
         {
           nombreComun: 'Sargo',
           nombreCientifico: 'Anisotremus scapularis',
-          imageAsset: null,
+          imageAsset: require('../imagenes/sargo.png'),
           caracteristicas: 'Cuerpo comprimido y alto, color gris plateado con mancha negra distintiva en opérculo y base de aletas. Habita aguas litorales, fondos rocosos y arenosos.',
           senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"],
           carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"],
@@ -1273,7 +1273,7 @@
         {
           nombreComun: 'Cabinza',
           nombreCientifico: 'Isacia conceptionis',
-          imageAsset: null,
+          imageAsset: require('../imagenes/cabinza.png'),
           caracteristicas: 'Cuerpo fusiforme, moderadamente comprimido. Color gris-plateado, dorso más oscuro. Aleta dorsal larga con una profunda incisión en forma de V.',
           senuelos: ["Jig", "Vinilo", "Plumillas"],
           carnadas: ["Pequeños trozos de camarón o filete de pescado", "lapa", "piure", "mariscos pequeños"],
@@ -1281,7 +1281,7 @@
         {
           nombreComun: 'Tomoyo',
           nombreCientifico: 'Labrisomidae spp. / Blenniidae spp.',
-          imageAsset: null,
+          imageAsset: require('../imagenes/tomoyo.png'),
           caracteristicas: 'Peces pequeños de roqueríos, cuerpo alargado, a menudo con cirros o tentáculos en la cabeza. Coloración mimética con el entorno rocoso.',
           senuelos: ["Jig", "Vinilo", "Minnow"],
           carnadas: ["Pulga de mar", "Pequeños mariscos", "Camarón de roca"],
@@ -1297,7 +1297,7 @@
       region: 'Biobío',
       // ... (resto igual)
       cuota: 'Consultar la información actualizada de SERNAPESCA, ya que las regulaciones pueden cambiar.',
-      imagenFondoSecciones: null,
+      imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
       especies: [
         {
           nombreComun: 'Corvina',
@@ -1320,8 +1320,8 @@
           nombreCientifico: 'Odontesthes regia',
           imageAsset: require('../imagenes/pejerrey-de-mar.png'),
           caracteristicas: 'Color gris pizarra, plateado oscuro en lomo, claro en vientre. Aletas y cola con tonos amarillo verdoso. Franja plateada lateral notoria.',
-          senuelos: ['Aparejo de pejerrey', 'Mosca'],
-          carnadas: ['Gueple de mar', 'Jibia', 'Piure', 'Almeja pequeña'],
+          senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+          carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
         },
         {
           nombreComun: 'Lenguado Chileno',
@@ -1336,13 +1336,13 @@
     {
       id: 32,
       nombre: 'Playa Las Brisas, Navidad',
-      latitude: -33.9330,
-      longitude: -71.8600,
+      latitude: -33.93737573256939, 
+      longitude: -71.85101989555893,
       tipo: 'Playa', // Capitalizado
       region: 'O\'Higgins',
       // ... (resto igual)
       cuota: 'Consultar la información actualizada de SERNAPESCA, ya que las regulaciones pueden cambiar.',
-      imagenFondoSecciones: null,
+      imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
       especies: [
         {
           nombreComun: 'Corvina',
@@ -1373,8 +1373,8 @@
           nombreCientifico: 'Odontesthes regia',
           imageAsset: require('../imagenes/pejerrey-de-mar.png'),
           caracteristicas: 'Gris pizarra, plateado oscuro en lomo, claro en vientre. Aletas y cola con tonos amarillo verdoso. Franja plateada lateral notoria.',
-          senuelos: ['Aparejo de pejerrey', 'Pluma'],
-          carnadas: ['Gueple de mar', 'Camarón pequeño', 'Machita'],
+          senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+          carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
         }
       ],
     },
@@ -1387,7 +1387,7 @@
       region: 'Biobío',
       // ... (resto igual)
       cuota: 'Consultar la información actualizada de SERNAPESCA, ya que las regulaciones pueden cambiar.',
-      imagenFondoSecciones: null,
+      imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
       especies: [
         {
           nombreComun: 'Corvina',
@@ -1410,8 +1410,8 @@
           nombreCientifico: 'Odontesthes regia',
           imageAsset: require('../imagenes/pejerrey-de-mar.png'),
           caracteristicas: 'Color gris pizarra, plateado oscuro en lomo, claro en vientre. Aletas y cola con tonos amarillo verdoso. Franja plateada lateral notoria.',
-          senuelos: ['Aparejo de pejerrey', 'Mosca'],
-          carnadas: ['Gueple de mar', 'Jibia', 'Piure', 'Almeja pequeña'],
+          senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+          carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
         },
         {
           nombreComun: 'Lenguado Chileno',
@@ -1440,7 +1440,7 @@
       region: 'Biobío',
       // ... (resto igual)
       cuota: 'Consultar la información actualizada de SERNAPESCA, ya que las regulaciones pueden cambiar.',
-      imagenFondoSecciones: null,
+      imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
       especies: [
         {
           nombreComun: 'Corvina',
@@ -1463,8 +1463,8 @@
           nombreCientifico: 'Odontesthes regia',
           imageAsset: require('../imagenes/pejerrey-de-mar.png'),
           caracteristicas: 'Color gris pizarra, plateado oscuro en lomo, claro en vientre. Aletas y cola con tonos amarillo verdoso. Franja plateada lateral notoria.',
-          senuelos: ['Aparejo de pejerrey', 'Mosca'],
-          carnadas: ['Gueple de mar', 'Jibia', 'Piure', 'Almeja pequeña'],
+          senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+          carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
         },
         {
           nombreComun: 'Lenguado Chileno',
@@ -1493,7 +1493,7 @@
         tipo: 'Playa',
         region: 'Tarapacá',
         cuota: 'Consultar SERNAPESCA.',
-        imagenFondoSecciones: null,
+        imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
         especies: [
           {
             nombreComun: 'Corvina',
@@ -1514,7 +1514,7 @@
           {
             nombreComun: 'Sargo',
             nombreCientifico: 'Anisotremus scapularis', // Fichas Marinas Sernapesca p.32 [cite: 280] / Guía Peces Litorales TNC p.13 [cite: 433]
-            imageAsset: null,
+            imageAsset: require('../imagenes/sargo.png'),
             caracteristicas: 'Cuerpo comprimido y alto, mancha negra en opérculo. Habita fondos rocosos y arenosos.', // Fichas Marinas Sernapesca p.32 [cite: 280] / Guía Peces Litorales TNC p.13 [cite: 433]
             senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"],
             carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"],
@@ -1522,7 +1522,7 @@
           {
             nombreComun: 'Rollizo',
             nombreCientifico: 'Pinguipes chilensis', // Fichas Marinas Sernapesca p.29 [cite: 249] / Guía Peces Litorales TNC p.11 [cite: 410]
-            imageAsset: null,
+            imageAsset: require('../imagenes/rollizo.png'),
             caracteristicas: 'Cuerpo alargado, labios gruesos. Habita roqueríos cercanos a la costa y fondos de arena.', // Fichas Marinas Sernapesca p.29 [cite: 249, 254] / Guía Peces Litorales TNC p.11 [cite: 410]
             senuelos: ["Jig", "Vinilo", "Minnow"],
             carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"], // Fichas Marinas Sernapesca p.29 [cite: 255]
@@ -1537,7 +1537,7 @@
         tipo: 'Playa',
         region: 'Atacama',
         cuota: 'Consultar SERNAPESCA.',
-        imagenFondoSecciones: null,
+        imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
         especies: [
           {
             nombreComun: 'Lenguado Chileno',
@@ -1558,7 +1558,7 @@
           {
             nombreComun: 'Rollizo',
             nombreCientifico: 'Pinguipes chilensis',
-            imageAsset: null,
+            imageAsset: require('../imagenes/rollizo.png'),
             caracteristicas: 'Especie nativa, vive entre fondos rocosos y arena. Cuerpo alargado, labios gruesos.', // Fichas Marinas Sernapesca p.29 [cite: 249] / Guía Peces Litorales TNC p.11 [cite: 410]
             senuelos: ["Jig", "Vinilo", "Minnow"],
             carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"], // Fichas Marinas Sernapesca p.29 [cite: 255]
@@ -1573,7 +1573,7 @@
         tipo: 'Playa',
         region: 'Atacama',
         cuota: 'Consultar SERNAPESCA.',
-        imagenFondoSecciones: null,
+        imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
         especies: [
           {
             nombreComun: 'Corvina',
@@ -1596,8 +1596,8 @@
             nombreCientifico: 'Odontesthes regia', // Fichas Marinas Sernapesca p.27 [cite: 233]
             imageAsset: require('../imagenes/pejerrey-de-mar.png'),
             caracteristicas: 'Forma cardúmenes cerca de la orilla, cuerpo plateado con franja lateral.', // Fichas Marinas Sernapesca p.27 [cite: 233, 235]
-            senuelos: ['Aparejo de pejerrey', 'Plumas brillantes'],
-            carnadas: ['Gueple de mar', 'Camarón pequeño', 'Filet de pescado'],
+            senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+            carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
           }
         ],
       },
@@ -1609,7 +1609,7 @@
         tipo: 'Playa',
         region: 'Coquimbo',
         cuota: 'Consultar SERNAPESCA.',
-        imagenFondoSecciones: null,
+        imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
         especies: [
           {
             nombreComun: 'Lenguado Chileno',
@@ -1637,7 +1637,7 @@
         tipo: 'Playa',
         region: 'Coquimbo',
         cuota: 'Consultar SERNAPESCA.',
-        imagenFondoSecciones: null,
+        imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
         especies: [
           {
             nombreComun: 'Lenguado Chileno',
@@ -1660,8 +1660,8 @@
             nombreCientifico: 'Odontesthes regia',
             imageAsset: require('../imagenes/pejerrey-de-mar.png'),
             caracteristicas: 'Abundante en la zona, ideal para pesca ligera.',
-            senuelos: ['Aparejo de pejerrey', 'Plumas pequeñas'],
-            carnadas: ['Gueple', 'Camarón'],
+            senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+            carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
           }
         ],
       },
@@ -1673,12 +1673,12 @@
         tipo: 'Playa',
         region: 'Valparaíso',
         cuota: 'Consultar SERNAPESCA.',
-        imagenFondoSecciones: null,
+        imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
         especies: [
           {
-            nombreComun: 'Vieja Negra (Mulata)',
+            nombreComun: 'Vieja Negra',
             nombreCientifico: 'Graus nigra', // Guía Peces Litorales TNC p.8 [cite: 361]
-            imageAsset: null,
+            imageAsset: require('../imagenes/vieja-negra.png'),
             caracteristicas: 'Nativa de Chile y Perú, fondos rocosos con cuevas. Longeva. Población disminuida.', // Guía Peces Litorales TNC p.8 [cite: 362, 364, 367]
             senuelos: ["Jig", "Vinilo"],
             carnadas: ["Lapa", "Jaiba", "Camarón", "Erizo", "Piure", "Almeja", "Choritos"], // Guía Peces Litorales TNC p.8 [cite: 363]
@@ -1686,7 +1686,7 @@
           {
             nombreComun: 'Rollizo',
             nombreCientifico: 'Pinguipes chilensis',
-            imageAsset: null,
+            imageAsset: require('../imagenes/rollizo.png'),
             caracteristicas: 'Nativo, habita fondos rocosos y arena. Alim: crustáceos, moluscos.', // Guía Peces Litorales TNC p.11 [cite: 410, 411]
             senuelos: ["Jig", "Vinilo", "Minnow"],
             carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
@@ -1717,7 +1717,7 @@
         tipo: 'Playa',
         region: 'Valparaíso',
         cuota: 'Consultar SERNAPESCA.',
-        imagenFondoSecciones: null,
+        imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
         especies: [
           {
             nombreComun: 'Corvina',
@@ -1738,30 +1738,32 @@
           {
             nombreComun: 'Jerguilla',
             nombreCientifico: 'Aplodactylus punctatus', // Guía Peces Litorales TNC p.13 [cite: 427]
-            imageAsset: null,
+            imageAsset: require('../imagenes/jerguilla.png'),
             caracteristicas: 'Herbívora, habita fondos rocosos con bosques de algas pardas. Variedades de color.', // Guía Peces Litorales TNC p.13 [cite: 428, 429]
             senuelos: ['Difícil con señuelo.'],
             carnadas: ['Algas (luche)', 'Piures', 'Pequeños crustáceos'],
           },
           {
-            nombreComun: 'Tomoyo (Chalaco)',
+            nombreComun: 'Tomoyo',
             nombreCientifico: 'Labrisomidae', // Guía Peces Litorales TNC p.11 [cite: 402] (familia)
-            imageAsset: null,
+            imageAsset: require('../imagenes/tomoyo.png'),
             caracteristicas: 'Varias especies difíciles de diferenciar. Fondos rocosos no profundos. Machos cuidan nidos.', // Guía Peces Litorales TNC p.11 [cite: 403, 404]
-            senuelos: ["Jig", "Vinilo"],
-            carnadas: ["Pulga de mar", "Machuelo", "Almeja", "Piure", "Filete de pescado"],
+            senuelos: ["Jig", "Vinilo", "Minnow"],
+            carnadas: ["Pulga de mar", "Pequeños mariscos", "Camarón de roca"],
           }
         ],
       },
+      
+      ,
       {
         id: 42,
         nombre: 'Playa Las Torpederas (Valparaíso)',
-        latitude: -33.0250, // APROXIMADO - ¡VERIFICAR!
-        longitude: -71.6370, // APROXIMADO - ¡VERIFICAR!
+        latitude: -33.0219900033732,
+        longitude: -71.64439193173963,
         tipo: 'Playa',
         region: 'Valparaíso',
         cuota: 'Consultar SERNAPESCA.',
-        imagenFondoSecciones: null,
+        imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
         especies: [
           {
             nombreComun: 'Corvina',
@@ -1772,49 +1774,73 @@
             carnadas: ["Pulga de mar", "Nape", "Pejerrey", "Sardina", "Moluscos ocasionalmente (Lapa , Piure , Almeja)", "Gueple de mar (lombriz)"],
           },
           {
-            nombreComun: 'Róbalo',
-            nombreCientifico: 'Eleginops maclovinus',
-            imageAsset: require('../imagenes/robalo.png'),
-            caracteristicas: 'Habita zonas costeras donde desembocan ríos o esteros, fondos de arena y roca.', // Guía Peces Litorales TNC p.15 [cite: 453]
-            senuelos: ["Vinilos", "Metal vibs", "Minnows", "Plumillas", "Cucharas"],
-            carnadas: ["Gueple de mar", "Nape", "Almeja", "Jibia", "Camarón", "Pulga de mar", "Camarón de río/mar", "Pancora", "Lombriz de tierra", "Lapa"],
-          },
-          {
             nombreComun: 'Pejerrey de Mar',
             nombreCientifico: 'Odontesthes regia',
             imageAsset: require('../imagenes/pejerrey-de-mar.png'),
             caracteristicas: 'Común en muelles y escolleras, pesca con flotador.',
-            senuelos: ['Aparejo de pejerrey', 'Plumas pequeñas'],
-            carnadas: ['Gueple de mar', 'Masa de harina y pescado'],
+            senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+            carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
           },
           {
-            nombreComun: 'Tomoyo (Chalaco)',
-            nombreCientifico: 'Labrisomidae',
-            imageAsset: null,
-            caracteristicas: 'Habita fondos rocosos y no muy profundos. Varias especies difíciles de diferenciar.', // Guía Peces Litorales TNC p.11 [cite: 402, 403]
-            senuelos: ["Jig", "Vinilo"],
-            carnadas: ["Pulga de mar", "Machuelo", "Almeja", "Piure", "Filete de pescado"],
+            nombreComun: 'Tomoyo',
+            nombreCientifico: 'Labrisomidae', // Familia de varias especies de Tomoyos
+            imageAsset: require('../imagenes/tomoyo.png'),
+            caracteristicas: 'Habita fondos rocosos y no muy profundos. Varias especies difíciles de diferenciar.', // Info general, ver TNC Litorales p.11 [cite: 402, 403]
+            senuelos: ["Jig", "Vinilo", "Minnow"],
+            carnadas: ["Pulga de mar", "Pequeños mariscos", "Camarón de roca"],
+          },
+          {
+            nombreComun: 'Jerguilla',
+            nombreCientifico: 'Aplodactylus punctatus',
+            imageAsset: require('../imagenes/jerguilla.png'), // Asegúrate de tener esta imagen
+            caracteristicas: 'Coloración variable, desde verde oliva a café oscuro, con numerosas manchas blancas o amarillentas. Habita en el intermareal y submareal rocoso.', // Sernapesca Marinas PDF p.29 [cite: 199] / TNC Litorales PDF p.13 [cite: 428]
+            senuelos: ["Vinilo pequeño", "Jig pequeño", "Aparejo simple con anzuelo pequeño"],
+            carnadas: ["Algas verdes (luche)", "Pulga de mar", "Otros invertebrados pequeños"], // Sernapesca Marinas PDF p.29
+          },
+          {
+            nombreComun: 'Vieja Negra',
+            nombreCientifico: 'Graus nigra',
+            imageAsset: require('../imagenes/vieja-negra.png'), // Asegúrate de tener esta imagen
+            caracteristicas: 'Pez de color negro, adultos a veces con dos puntos blancos en el lomo. Cuerpo robusto. Habita en el submareal rocoso, a menudo en caletones y requeríos profundos.', // Sernapesca Marinas PDF p.31 [cite: 318, 322] / TNC Litorales PDF p.16 [cite: 362]
+            senuelos: ["Jigs pesados"], // TNC Litorales PDF p.16 [cite: 361]
+            carnadas: ["Lapa", "Jaiba", "Piure", "Erizo", "Mora", "Camarón"], // Sernapesca Marinas PDF p.31 [cite: 324] / TNC Litorales PDF p.16 [cite: 363]
+          },
+          {
+            nombreComun: 'Bilagay (Pez Perro)',
+            nombreCientifico: 'Semicossyphus darwini', // Bilagay es un nombre común, Semicossyphus darwini es el Pejeperro.
+            imageAsset: require('../imagenes/bilagay.png'), // Asegúrate de tener esta imagen, o usa pejeperro.png si es la misma especie
+            caracteristicas: 'Machos adultos con joroba en la cabeza, color gris oscuro a rojizo con banda amarillenta en el centro del cuerpo. Habita arrecifes rocosos.', // Sernapesca Marinas PDF p.26 (Pejeperro) [cite: 223, 226, 230] / TNC Litorales PDF p.17 (Pejeperro) [cite: 368, 369]
+            senuelos: ["Jigs"], // TNC Litorales PDF p.17 [cite: 371]
+            carnadas: ["Lapa", "Jaiba", "Piure", "Erizo", "Moluscos y crustáceos en general"], // Sernapesca Marinas PDF p.26 (Pejeperro) [cite: 231] / TNC Litorales PDF p.17 [cite: 370]
+          },
+          {
+            nombreComun: 'Lenguado de Arena', // Uno de los lenguados comunes en playas
+            nombreCientifico: 'Paralichthys adspersus',
+            imageAsset: require('../imagenes/lenguado.png'), // Puedes usar tu imagen genérica de lenguado o crear una específica.
+            caracteristicas: 'Cuerpo ovalado y comprimido, coloración variable para mimetizarse con fondos arenosos.', // Sernapesca Marinas PDF p.20 / TNC Litorales PDF p.20
+            senuelos: ["Vinilos que imiten peces pequeños", "Jigs ligeros", "Señuelos tipo pejerrey"], // Adaptado de Sernapesca Marinas PDF p.20 / TNC Litorales PDF p.20
+            carnadas: ["Pejerrey (vivo o muerto)", "Sardina", "Filete de pescado"], // Sernapesca Marinas PDF p.20 / TNC Litorales PDF p.20
+          },
+          {
+            nombreComun: 'Blanquillo',
+            nombreCientifico: 'Prolatilus jugularis',
+            imageAsset: require('../imagenes/blanquillo.png'), // Asegúrate de tener esta imagen
+            caracteristicas: 'Cuerpo macizo en su región torácica anterior, adelgazando hacia atrás. Color blanco-grisáceo con 4-5 pares de bandas transversales café-rojizo. Vive en fondos rocosos y arenosos.', // Sernapesca Marinas PDF p.17 [cite: 123, 126, 128] / TNC Litorales PDF p.14 [cite: 447]
+            senuelos: ["Jigs pequeños", "Vinilos imitando crustáceos", "Cucharas ondulantes pequeñas"], // Basado en su dieta
+            carnadas: ["Pequeños trozos de pescado", "Camarón", "Pulga de mar", "Anélidos poliquetos"], // Sernapesca Marinas PDF p.17 [cite: 129] / TNC Litorales PDF p.14 [cite: 449]
           }
         ],
       },
       {
         id: 43,
         nombre: 'Desembocadura Río Aconcagua (Concón)',
-        latitude: -32.9220, // APROXIMADO - ¡VERIFICAR!
-        longitude: -71.5200, // APROXIMADO - ¡VERIFICAR!
+        latitude: -32.91792610608716,
+        longitude: -71.51061190115608,
         tipo: 'Desembocadura',
         region: 'Valparaíso',
         cuota: 'Consultar SERNAPESCA.',
-        imagenFondoSecciones: null,
+        imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
         especies: [
-          {
-            nombreComun: 'Róbalo',
-            nombreCientifico: 'Eleginops maclovinus',
-            imageAsset: require('../imagenes/robalo.png'),
-            caracteristicas: 'Especie principal en desembocaduras, busca la mezcla de agua dulce y salada.',
-            senuelos: ["Vinilos", "Metal vibs", "Minnows", "Plumillas", "Cucharas"],
-            carnadas: ["Gueple de mar", "Nape", "Almeja", "Jibia", "Camarón", "Pulga de mar", "Camarón de río/mar", "Pancora", "Lombriz de tierra", "Lapa"],
-          },
           {
             nombreComun: 'Lenguado Chileno',
             nombreCientifico: 'Paralichthys adspersus',
@@ -1830,6 +1856,14 @@
             caracteristicas: 'Ingresa a los estuarios y desembocaduras en busca de alimento.',
             senuelos: ["Chispa", "Minnow", "Jig", "Vinilos", "Metal vibs grandes", "Plumillas", "Bucktail"],
             carnadas: ["Pulga de mar", "Nape", "Pejerrey", "Sardina", "Moluscos ocasionalmente (Lapa , Piure , Almeja)", "Gueple de mar (lombriz)"],
+          },
+          {
+            nombreComun: 'Jurel',
+            nombreCientifico: 'Trachurus murphyi',
+            imageAsset: require('../imagenes/jurel.png'), // Como solicitaste, al no tener la imagen.
+            caracteristicas: 'Cuerpo alargado y comprimido, azul verdoso en el dorso y plateado en el vientre. Frecuenta zonas costeras y puede acercarse a desembocaduras en busca de alimento.', // Basado en TNC Litorales PDF p.23
+            senuelos: ["Plumillas", "Jigs", "Sabiki", "Minnows pequeños", "Cucharas ondulantes"],
+            carnadas: ["Camarones pequeños", "Trocitos de sardina o anchoveta", "Gusanos de mar"],
           }
         ],
       },
@@ -1841,28 +1875,28 @@
         tipo: 'Playa',
         region: 'Ñuble',
         cuota: 'Consultar SERNAPESCA.',
-        imagenFondoSecciones: null,
+        imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
         especies: [
           {
             nombreComun: 'Rollizo',
             nombreCientifico: 'Pinguipes chilensis',
-            imageAsset: null,
+            imageAsset: require('../imagenes/rollizo.png'),
             caracteristicas: 'Habita fondos rocosos y arena. Alim: crustáceos, moluscos.', // Guía Peces Litorales TNC p.11 [cite: 410, 411]
             senuelos: ["Jig", "Vinilo", "Minnow"],
             carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
           },
           {
-            nombreComun: 'Vieja Negra (Mulata)',
+            nombreComun: 'Vieja Negra',
             nombreCientifico: 'Graus nigra',
-            imageAsset: null,
+            imageAsset: require('../imagenes/vieja-negra.png'),
             caracteristicas: 'Nativa, fondos rocosos con cuevas. Longeva. Alim: lapas, jaibas, locos.', // Guía Peces Litorales TNC p.8 [cite: 362, 363, 364]
             senuelos: ["Jig", "Vinilo"],
             carnadas: ["Lapa", "Jaiba", "Camarón", "Erizo", "Piure", "Almeja", "Choritos"],
           },
           {
-            nombreComun: 'Cabrilla Común (de roca)',
+            nombreComun: 'Cabrilla Común',
             nombreCientifico: 'Sebastes capensis', // Fichas Marinas Sernapesca p.20 [cite: 153]
-            imageAsset: null,
+            imageAsset: require('../imagenes/cabrilla.png'),
             caracteristicas: 'Fondos de rocas, color café rojizo. Hembras ovovivíparas.', // Fichas Marinas Sernapesca p.20 [cite: 155, 167]
             senuelos: ["Jig", "Vinilo"],
             carnadas: ["Lapa", "Jaiba", "Camarón", "Erizo", "Piure", "Almeja", "Choritos", "Filete de pescado"],
@@ -1880,7 +1914,7 @@
     tipo: 'Playa',
     region: "O'Higgins",
     cuota: 'Consultar SERNAPESCA.',
-    imagenFondoSecciones: null,
+    imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
     especies: [
       {
         nombreComun: 'Corvina',
@@ -1911,8 +1945,8 @@
         nombreCientifico: 'Odontesthes regia', // Fichas Marinas Sernapesca p.27
         imageAsset: require('../imagenes/pejerrey-de-mar.png'),
         caracteristicas: 'Forma cardúmenes cerca de la orilla, cuerpo plateado con franja lateral.', // Fichas Marinas Sernapesca p.27
-        senuelos: ['Aparejo de pejerrey', 'Plumas pequeñas y brillantes'],
-        carnadas: ['Gueple de mar', 'Camarón de mar'],
+        senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+        carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
       }
     ],
   },
@@ -1924,7 +1958,7 @@
     tipo: 'Playa',
     region: "O'Higgins",
     cuota: 'Consultar SERNAPESCA.',
-    imagenFondoSecciones: null,
+    imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
     especies: [
       {
         nombreComun: 'Corvina',
@@ -1953,18 +1987,18 @@
       { // Sargo es plausible aquí dada la pesca submarina mencionada para Bucalemu y su distribución norte/centro.
         nombreComun: 'Sargo',
         nombreCientifico: 'Anisotremus scapularis',
-        imageAsset: null,
+        imageAsset: require('../imagenes/sargo.png'),
         caracteristicas: 'Común en sectores rocosos adyacentes a playas. Cuerpo alto y gris plateado.',
-        senuelos: ['Jigs pequeños', 'Micro vinilos'],
-        carnadas: ['Pulga de mar', 'Machita'],
+        senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"],
+        carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"],
       },
       {
         nombreComun: 'Pejerrey de Mar',
         nombreCientifico: 'Odontesthes regia',
         imageAsset: require('../imagenes/pejerrey-de-mar.png'),
         caracteristicas: 'Forma cardúmenes cerca de la orilla.',
-        senuelos: ['Aparejo de pejerrey', 'Plumas'],
-        carnadas: ['Gueple de mar', 'Camarón'],
+        senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+        carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
       }
     ],
   },
@@ -1976,7 +2010,7 @@
     tipo: 'Playa',
     region: 'Ñuble',
     cuota: 'Consultar SERNAPESCA.',
-    imagenFondoSecciones: null,
+    imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
     especies: [
       {
         nombreComun: 'Corvina',
@@ -2007,8 +2041,8 @@
         nombreCientifico: 'Odontesthes regia',
         imageAsset: require('../imagenes/pejerrey-de-mar.png'),
         caracteristicas: 'Cardúmenes presentes en la orilla.',
-        senuelos: ['Aparejo de pejerrey', 'Moscas pequeñas'],
-        carnadas: ['Gueple', 'Trozo de pescado'],
+        senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+        carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
       }
     ],
   },
@@ -2020,7 +2054,7 @@
     tipo: 'Playa', // Cerca de desembocadura Río Itata
     region: 'Ñuble',
     cuota: 'Consultar SERNAPESCA.',
-    imagenFondoSecciones: null,
+    imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
     especies: [
       {
         nombreComun: 'Róbalo',
@@ -2051,8 +2085,8 @@
         nombreCientifico: 'Odontesthes regia',
         imageAsset: require('../imagenes/pejerrey-de-mar.png'),
         caracteristicas: 'Frecuente en aguas salobres y costeras.',
-        senuelos: ['Aparejo tradicional', 'Plumas'],
-        carnadas: ['Gueple', 'Camarón'],
+        senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+        carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
       }
     ],
   },
@@ -2064,14 +2098,14 @@
     tipo: 'Playa', // Influencia de desembocadura
     region: 'La Araucanía',
     cuota: 'Consultar SERNAPESCA.',
-    imagenFondoSecciones: null,
+    imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
     especies: [
       {
         nombreComun: 'Salmón Chinook (Rey)',
         nombreCientifico: 'Oncorhynchus tshawytscha', // Fichas Dulceacuícolas p.27
         imageAsset: require('../imagenes/salmon-chinook.png'), // Asumiendo que tienes esta imagen
         caracteristicas: 'Grandes ejemplares pueden ser capturados cerca de la desembocadura del Toltén en temporada.', // Fichas Dulceacuícolas p.27
-        senuelos: ["Cucharas", "Spinners grandes", "Minnows", "Jiggs", "Metal Vib", "Vinilo", "Caimán", "Moscas"],
+        senuelos: ["Cucharas", "Spinners grandes", "Minnows", "Jigs", "Metal Vib", "Vinilo", "Caimán", "Moscas"],
         carnadas: ["Carnadas vivas prohibidas por regla general para salmónidos (Consultar regulaciones actualizadas de Sernapesca)"],
       },
       {
@@ -2111,8 +2145,8 @@
         nombreCientifico: 'Odontesthes regia',
         imageAsset: require('../imagenes/pejerrey-de-mar.png'),
         caracteristicas: 'Presente en la zona costera.',
-        senuelos: ['Aparejo de pejerrey'],
-        carnadas: ['Gueple', 'Camarón'],
+        senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+        carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
       }
     ],
   },
@@ -2124,7 +2158,7 @@
     tipo: 'Playa', // También 'Desembocadura'
     region: 'Los Ríos',
     cuota: 'Consultar SERNAPESCA.',
-    imagenFondoSecciones: null,
+    imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
     especies: [
       {
         nombreComun: 'Róbalo',
@@ -2155,8 +2189,8 @@
         nombreCientifico: 'Odontesthes regia',
         imageAsset: require('../imagenes/pejerrey-de-mar.png'),
         caracteristicas: 'Común en estuarios y playas del sur.',
-        senuelos: ['Aparejo de pejerrey', 'Plumas'],
-        carnadas: ['Gueple de mar', 'Camarón'],
+        senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+        carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
       }
     ],
   },
@@ -2169,7 +2203,7 @@
     tipo: 'Playa',
     region: 'La Araucanía',
     cuota: 'Consultar la información actualizada de SERNAPESCA, ya que las regulaciones pueden cambiar, especialmente para salmónidos en desembocaduras.',
-    imagenFondoSecciones: null,
+    imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
     especies: [
       {
         nombreComun: 'Róbalo',
@@ -2200,15 +2234,15 @@
         nombreCientifico: 'Odontesthes regia', // [cite: 233]
         imageAsset: require('../imagenes/pejerrey-de-mar.png'), // Asumiendo ruta de tu array original
         caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre. Aletas y cola con tonos amarillo verdoso. Franja plateada lateral notoria. Ocupa ambientes marinos diversos como estuarios y playas.', // [cite: 233, 237]
-        senuelos: ['Aparejo de pejerrey', 'Plumas brillantes'],
-        carnadas: ['Gueple de mar', 'Camarón pequeño', 'Filet de pescado'], // Sernapesca PDF menciona dieta de anfípodos, poliquetos, copépodos, larvas zoeas, plantas [cite: 236, 237]
+        senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+        carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"], // Sernapesca PDF menciona dieta de anfípodos, poliquetos, copépodos, larvas zoeas, plantas [cite: 236, 237]
       },
       {
         nombreComun: 'Salmón Chinook (Rey)',
         nombreCientifico: 'Oncorhynchus tshawytscha', // [cite: 687]
         imageAsset: require('../imagenes/salmon-chinook.png'), // Asumiendo ruta de tu array original
         caracteristicas: 'El más grande de los salmones del Pacífico. Cuerpo fusiforme, robusto. Color azul verdoso con pequeñas manchas en dorso y cabeza, lados plateados. Machos adultos reproductivos con cabeza grande y mandíbula ganchuda.', // [cite: 687, 691, 693]
-        senuelos: ["Cucharas", "Spinners grandes", "Minnows", "Jiggs", "Metal Vib", "Vinilo", "Caimán", "Moscas"],
+        senuelos: ["Cucharas", "Spinners grandes", "Minnows", "Jigs", "Metal Vib", "Vinilo", "Caimán", "Moscas"],
         carnadas: ["Carnadas vivas prohibidas por regla general para salmónidos (Consultar regulaciones actualizadas de Sernapesca)"], // Regulaciones suelen ser estrictas para salmónidos.
       },
       {
@@ -2229,7 +2263,7 @@
     tipo: 'Río',
     region: 'La Araucanía',
     cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas del Río Imperial, especialmente para salmónidos y pejerrey.',
-    imagenFondoSecciones: null,
+    imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
     especies: [
       {
         nombreComun: 'Róbalo',
@@ -2253,7 +2287,7 @@
         nombreCientifico: 'Oncorhynchus tshawytscha', //
         imageAsset: require('../imagenes/salmon-chinook.png'), // Asumiendo ruta de tu array original
         caracteristicas: 'El más grande de los salmones del Pacífico. Cuerpo fusiforme, robusto. Color azul verdoso con pequeñas manchas en dorso y cabeza, lados plateados. Remonta ríos para desovar.', //
-        senuelos: ["Cucharas", "Spinners grandes", "Minnows", "Jiggs", "Metal Vib", "Vinilo", "Caimán", "Moscas"], // Sernapesca PDF menciona señuelo artificial.
+        senuelos: ["Cucharas", "Spinners grandes", "Minnows", "Jigs", "Metal Vib", "Vinilo", "Caimán", "Moscas"], // Sernapesca PDF menciona señuelo artificial.
         carnadas: ["Carnadas vivas prohibidas por regla general para salmónidos (Consultar regulaciones actualizadas de Sernapesca)"], // Sernapesca PDF (p.7, p.28)
       },
       {
@@ -2274,7 +2308,7 @@
     tipo: 'Río',
     region: 'La Araucanía',
     cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas del Río Moncul, especialmente para salmónidos, carpa y pejerrey.',
-    imagenFondoSecciones: null,
+    imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
     especies: [
       {
         nombreComun: 'Róbalo',
@@ -2321,7 +2355,7 @@
         nombreCientifico: 'Oncorhynchus tshawytscha', //
         imageAsset: require('../imagenes/salmon-chinook.png'),
         caracteristicas: 'El más grande de los salmones del Pacífico. Cuerpo fusiforme, robusto. Color azul verdoso con pequeñas manchas en dorso y cabeza, lados plateados[cite: 688, 691]. Machos adultos reproductivos con cabeza grande y mandíbula ganchuda[cite: 689]. Usualmente desovan en grandes ríos o tributarios[cite: 702].',
-        senuelos: ["Cucharas", "Spinners grandes", "Minnows", "Jiggs", "Metal Vib", "Vinilo", "Caimán", "Moscas"], // Sernapesca PDF menciona señuelo artificial[cite: 708].
+        senuelos: ["Cucharas", "Spinners grandes", "Minnows", "Jigs", "Metal Vib", "Vinilo", "Caimán", "Moscas"], // Sernapesca PDF menciona señuelo artificial[cite: 708].
         carnadas: ["Carnadas vivas prohibidas por regla general para salmónidos (Consultar regulaciones actualizadas de Sernapesca)"],
       },
       {
@@ -2342,7 +2376,7 @@
     tipo: 'Playa',
     region: 'La Araucanía',
     cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas, especialmente para salmónidos.',
-    imagenFondoSecciones: null,
+    imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
     especies: [
       {
         nombreComun: 'Róbalo',
@@ -2373,15 +2407,15 @@
         nombreCientifico: 'Odontesthes regia', // [cite: 233]
         imageAsset: require('../imagenes/pejerrey-de-mar.png'),
         caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre. Aletas y cola con tonos amarillo verdoso. [cite: 233] Franja plateada lateral notoria. Ocupa ambientes marinos diversos como estuarios y playas. [cite: 237]',
-        senuelos: ['Aparejo de pejerrey', 'Plumas brillantes'], // Aparejos comunes
-        carnadas: ['Gueple de mar', 'Camarón pequeño', 'Filet de pescado'], // Sernapesca PDF menciona dieta variada [cite: 237]
+        senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"], // Aparejos comunes
+        carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"], // Sernapesca PDF menciona dieta variada [cite: 237]
       },
       {
         nombreComun: 'Salmón Chinook (Rey)',
         nombreCientifico: 'Oncorhynchus tshawytscha', // [cite: 687]
         imageAsset: require('../imagenes/salmon-chinook.png'),
         caracteristicas: 'El más grande de los salmones del Pacífico. Cuerpo fusiforme, robusto. Color azul verdoso con pequeñas manchas en dorso y cabeza, lados plateados. [cite: 691] Machos adultos reproductivos con cabeza grande y mandíbula ganchuda. [cite: 689] Puede ser capturado en playas cercanas a desembocaduras de ríos que remonta.',
-        senuelos: ["Cucharas", "Spinners grandes", "Minnows", "Jiggs", "Metal Vib", "Vinilo", "Caimán", "Moscas"], // Señuelos comunes para pesca desde costa o desembocadura.
+        senuelos: ["Cucharas", "Spinners grandes", "Minnows", "Jigs", "Metal Vib", "Vinilo", "Caimán", "Moscas"], // Señuelos comunes para pesca desde costa o desembocadura.
         carnadas: ["Carnadas vivas prohibidas por regla general para salmónidos (Consultar regulaciones actualizadas de Sernapesca)"], // [cite: 708]
       },
       {
@@ -2402,7 +2436,7 @@
     tipo: 'Playa',
     region: 'Biobío',
     cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
-    imagenFondoSecciones: null,
+    imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
     especies: [
       {
         nombreComun: 'Róbalo',
@@ -2433,8 +2467,8 @@
         nombreCientifico: 'Odontesthes regia', //
         imageAsset: require('../imagenes/pejerrey-de-mar.png'), // Asumiendo ruta de tu array original
         caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre. Aletas y cola con tonos amarillo verdoso[cite: 233]. Franja plateada lateral notoria. Ocupa ambientes marinos diversos como estuarios y playas[cite: 237].',
-        senuelos: ['Aparejo de pejerrey', 'Plumas brillantes'], // Aparejos comunes (Sernapesca PDF no detalla señuelos específicos para esta especie)
-        carnadas: ['Gueple de mar', 'Camarón pequeño', 'Filete de pescado'], // Dieta incluye anfípodos, poliquetos, copépodos, larvas zoeas, plantas [cite: 237]
+        senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"], // Aparejos comunes (Sernapesca PDF no detalla señuelos específicos para esta especie)
+        carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"], // Dieta incluye anfípodos, poliquetos, copépodos, larvas zoeas, plantas [cite: 237]
       }
     ]
   },
@@ -2446,7 +2480,7 @@
     tipo: 'Playa',
     region: 'Biobío',
     cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
-    imagenFondoSecciones: null,
+    imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
     especies: [
       {
         nombreComun: 'Róbalo',
@@ -2477,8 +2511,8 @@
         nombreCientifico: 'Odontesthes regia', //
         imageAsset: require('../imagenes/pejerrey-de-mar.png'), // Asumiendo ruta de tu array original
         caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre. Aletas y cola con tonos amarillo verdoso. Franja plateada lateral notoria. Ocupa ambientes marinos diversos como estuarios y playas.', // (Sernapesca PDF Marinas p.27)
-        senuelos: ['Aparejo de pejerrey', 'Plumas brillantes'], // Aparejos comunes
-        carnadas: ['Gueple de mar', 'Camarón pequeño', 'Filet de pescado'], // Dieta incluye anfípodos, poliquetos, copépodos, larvas zoeas, plantas (Sernapesca PDF Marinas p.27)
+        senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"], // Aparejos comunes
+        carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"], // Dieta incluye anfípodos, poliquetos, copépodos, larvas zoeas, plantas (Sernapesca PDF Marinas p.27)
       },
       
     ]
@@ -2490,7 +2524,7 @@
     tipo: 'Playa',
     region: 'Biobío',
     cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
-    imagenFondoSecciones: null,
+    imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
     especies: [
       {
         nombreComun: 'Corvina',
@@ -2513,8 +2547,8 @@
         nombreCientifico: 'Odontesthes regia', // [cite: 233]
         imageAsset: require('../imagenes/pejerrey-de-mar.png'), // Asumiendo ruta de tu array original
         caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre. Aletas y cola con tonos amarillo verdoso[cite: 233]. Franja plateada lateral notoria. Ocupa ambientes marinos diversos como estuarios y playas[cite: 237].',
-        senuelos: ['Aparejo de pejerrey', 'Plumas brillantes'], // Aparejos comunes
-        carnadas: ['Gueple de mar', 'Camarón pequeño', 'Filet de pescado'], // Dieta incluye anfípodos, poliquetos, copépodos, larvas zoeas, plantas [cite: 236]
+        senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"], // Aparejos comunes
+        carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"], // Dieta incluye anfípodos, poliquetos, copépodos, larvas zoeas, plantas [cite: 236]
       },
       {
         nombreComun: 'Lenguado Chileno', // Asumiendo Paralichthys adspersus por consistencia
@@ -2534,7 +2568,7 @@
     tipo: 'Playa',
     region: 'Biobío',
     cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
-    imagenFondoSecciones: null,
+    imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
     especies: [
       {
         nombreComun: 'Róbalo',
@@ -2557,8 +2591,8 @@
         nombreCientifico: 'Odontesthes regia', //
         imageAsset: require('../imagenes/pejerrey-de-mar.png'), // Asumiendo ruta de tu array original
         caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre[cite: 233]. Aletas y cola con tonos amarillo verdoso[cite: 233]. Franja plateada lateral notoria. Ocupa ambientes marinos diversos como estuarios y playas[cite: 237].',
-        senuelos: ['Aparejo de pejerrey', 'Plumas brillantes'], // Aparejos comunes
-        carnadas: ['Gueple de mar', 'Camarón pequeño', 'Filet de pescado'], // Dieta incluye anfípodos, poliquetos, copépodos, larvas zoeas, plantas [cite: 236]
+        senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"], // Aparejos comunes
+        carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"], // Dieta incluye anfípodos, poliquetos, copépodos, larvas zoeas, plantas [cite: 236]
       },
       {
         nombreComun: 'Lenguado Chileno', // Asumiendo Paralichthys adspersus por consistencia
@@ -2578,7 +2612,7 @@
     tipo: 'Playa',
     region: 'Los Ríos',
     cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas, especialmente para salmónidos.',
-    imagenFondoSecciones: null,
+    imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
     especies: [
       {
         nombreComun: 'Corvina',
@@ -2609,15 +2643,15 @@
         nombreCientifico: 'Odontesthes regia', //
         imageAsset: require('../imagenes/pejerrey-de-mar.png'), // Asumiendo ruta de tu array original
         caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre, con color amarillo verdoso en las aletas y borde de la cola. [cite: 234] Franja plateada lateral notoria. Ocupa ambientes marinos diversos como estuarios, playas y fondos fangosos. [cite: 238]',
-        senuelos: ['Aparejo de pejerrey', 'Plumas brillantes'], // Aparejos comunes
-        carnadas: ['Gueple de mar', 'Camarón pequeño', 'Filet de pescado'], // Dieta incluye anfípodos y poliquetos (bentos) y copépodos y larvas zoeas (plancton), además de plantas[cite: 237].
+        senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"], // Aparejos comunes
+        carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"], // Dieta incluye anfípodos y poliquetos (bentos) y copépodos y larvas zoeas (plancton), además de plantas[cite: 237].
       },
       {
         nombreComun: 'Salmón Chinook (Rey)',
         nombreCientifico: 'Oncorhynchus tshawytscha', //
         imageAsset: require('../imagenes/salmon-chinook.png'), // Asumiendo ruta de tu array original
         caracteristicas: 'Cuerpo fusiforme, robusto. [cite: 688] Color azul verdoso con pequeñas manchas o brillos dorados en la parte dorsal y cabeza, lados plateados y vientre blanco. [cite: 692] Machos adultos reproductivos con cabeza grande y mandíbula ganchuda. [cite: 690] Puede ser capturado en playas cercanas a desembocaduras de ríos que remonta.',
-        senuelos: ["Cucharas", "Spinners grandes", "Minnows", "Jiggs", "Metal Vib", "Vinilo", "Caimán", "Moscas"], // Señuelos comunes para pesca desde costa o desembocadura.
+        senuelos: ["Cucharas", "Spinners grandes", "Minnows", "Jigs", "Metal Vib", "Vinilo", "Caimán", "Moscas"], // Señuelos comunes para pesca desde costa o desembocadura.
         carnadas: ["Carnadas vivas prohibidas por regla general para salmónidos (Consultar regulaciones actualizadas de Sernapesca)"]
       },
       {
@@ -2641,7 +2675,7 @@
   tipo: 'Playa',
   region: 'Los Lagos', // Chiloé
   cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas y regulaciones específicas.',
-  imagenFondoSecciones: null,
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
   especies: [
     {
       nombreComun: 'Róbalo',
@@ -2664,13 +2698,13 @@
       nombreCientifico: 'Odontesthes regia',
       imageAsset: require('../imagenes/pejerrey-de-mar.png'),
       caracteristicas: 'Cardúmenes en la zona costera, buena pesca de orilla. Color gris pizarra, plateado oscuro en lomo, claro en vientre. Franja plateada lateral notoria.',
-      senuelos: ['Aparejo de pejerrey', 'Plumas'],
-      carnadas: ['Gueple de mar', 'Camarón pequeño'],
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
     },
     {
       nombreComun: 'Rollizo',
       nombreCientifico: 'Pinguipes chilensis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/rollizo.png'),
       caracteristicas: 'Común en ambientes costeros rocosos y mixtos del sur. Cuerpo alargado, frente aplastada, labios gruesos de color amarillo.',
       senuelos: ["Jig", "Vinilo", "Minnow"],
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
@@ -2688,17 +2722,13 @@
 {
   id: 62,
   nombre: 'Playa La Ventana', // Asumiendo esta es la Playa Mar Brava cerca de Ancud con nuevas coordenadas
-  latitude: -41.74246382753621, 
-  longitude: -73.7320390029074, // Nota: Las coordenadas que diste en el prompt son -74.00861635386474. Usaré esas.
-  // Corrijo la longitud según tu última indicación en el prompt para este id:
-  // longitude: -74.00861635386474,
-  // Sin embargo, el prompt actual dice: -73.74402161213023. Voy a usar las del prompt actual:
-  longitude: -73.74402161213023, // Mantengo la que escribiste en el último prompt. Por favor, verifica cuál es la correcta.
-                                    // Si te refieres a -74.00861635386474, la cambiaré.
+  latitude: -41.74527872269453, 
+  longitude: -73.7346745209861, // Nota: Las coordenadas que diste en el prompt son -74.00861635386474. Usaré esas.
+  
   tipo: 'Playa',
   region: 'Los Lagos', // Chiloé
   cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas y regulaciones específicas.',
-  imagenFondoSecciones: null,
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
   especies: [ // Usando un perfil de especies similar al de ID 51 (Playa Mar Brava, Ancud)
     {
       nombreComun: 'Róbalo',
@@ -2727,7 +2757,7 @@
     {
       nombreComun: 'Rollizo',
       nombreCientifico: 'Pinguipes chilensis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/rollizo.png'),
       caracteristicas: 'Habita roqueríos cercanos a la costa y fondos de arena. Cuerpo alargado, labios gruesos de color amarillo.',
       senuelos: ["Jig", "Vinilo", "Minnow"],
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
@@ -2737,8 +2767,8 @@
       nombreCientifico: 'Odontesthes regia',
       imageAsset: require('../imagenes/pejerrey-de-mar.png'),
       caracteristicas: 'Forma cardúmenes en la zona costera. Color gris pizarra, plateado oscuro en lomo, claro en vientre.',
-      senuelos: ['Aparejo de pejerrey', 'Plumas'],
-      carnadas: ['Gueple de mar', 'Camarón pequeño'],
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
     }
   ]
 },
@@ -2750,7 +2780,7 @@
   tipo: 'Playa', // También podría ser 'Desembocadura'
   region: 'Los Lagos',
   cuota: 'Consultar la información actualizada de SERNAPESCA, especialmente para salmónidos cerca de la desembocadura.',
-  imagenFondoSecciones: null,
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
   especies: [
     {
       nombreComun: 'Róbalo',
@@ -2773,8 +2803,8 @@
       nombreCientifico: 'Odontesthes regia',
       imageAsset: require('../imagenes/pejerrey-de-mar.png'),
       caracteristicas: 'Cardúmenes costeros, especialmente en aguas más tranquilas de bahías o desembocaduras.',
-      senuelos: ['Aparejo de pejerrey', 'Plumas'],
-      carnadas: ['Gueple de mar', 'Camarón'],
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
     },
     {
       nombreComun: 'Salmón Chinook', // Posible cerca de desembocaduras importantes
@@ -2797,12 +2827,12 @@
 {
   id: 64,
   nombre: 'Playa Brava (Maullín)',
-  latitude: -41.5800, // APROXIMADO - ¡VERIFICAR!
-  longitude: -73.7800, // APROXIMADO - ¡VERIFICAR!
+  latitude: -41.74077308782815,
+  longitude:  -73.73497254374536,
   tipo: 'Playa',
   region: 'Los Lagos',
   cuota: 'Consultar la información actualizada de SERNAPESCA.',
-  imagenFondoSecciones: null,
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
   especies: [
     {
       nombreComun: 'Róbalo',
@@ -2833,8 +2863,8 @@
       nombreCientifico: 'Odontesthes regia',
       imageAsset: require('../imagenes/pejerrey-de-mar.png'),
       caracteristicas: 'Forma cardúmenes en la zona costera.',
-      senuelos: ['Aparejo de pejerrey', 'Plumas pequeñas'],
-      carnadas: ['Gueple de mar', 'Camarón'],
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
     }
   ]
 },
@@ -2846,7 +2876,7 @@
   tipo: 'Playa', // También podría ser 'Desembocadura'
   region: 'Los Lagos',
   cuota: 'Consultar la información actualizada de SERNAPESCA, especialmente para salmónidos cerca de la desembocadura.',
-  imagenFondoSecciones: null,
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
   especies: [
     {
       nombreComun: 'Róbalo',
@@ -2869,8 +2899,8 @@
       nombreCientifico: 'Odontesthes regia',
       imageAsset: require('../imagenes/pejerrey-de-mar.png'),
       caracteristicas: 'Frecuente en estuarios y la zona costera cercana.',
-      senuelos: ['Aparejo de pejerrey'],
-      carnadas: ['Gueple de mar', 'Camarón'],
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
     },
     {
       nombreComun: 'Salmón Coho', // Posible por la desembocadura
@@ -2890,7 +2920,7 @@
   tipo: 'Playa',
   region: 'Maule',
   cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
-  imagenFondoSecciones: null,
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
   especies: [
     {
       nombreComun: 'Corvina',
@@ -2921,13 +2951,13 @@
       nombreCientifico: 'Odontesthes regia',
       imageAsset: require('../imagenes/pejerrey-de-mar.png'), // Asumiendo ruta de tu array original
       caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre. Aletas y cola con tonos amarillo verdoso. Franja plateada lateral notoria. Ocupa ambientes marinos diversos como estuarios y playas.', // (Sernapesca PDF Marinas p.27)
-      senuelos: ['Aparejo de pejerrey', 'Plumas brillantes'], // Aparejos comunes
-      carnadas: ['Gueple de mar', 'Camarón pequeño', 'Filet de pescado'], // Dieta incluye anfípodos, poliquetos, copépodos, larvas zoeas, plantas (Sernapesca PDF Marinas p.27)
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"], // Aparejos comunes
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"], // Dieta incluye anfípodos, poliquetos, copépodos, larvas zoeas, plantas (Sernapesca PDF Marinas p.27)
     },
     {
       nombreComun: 'Rollizo',
       nombreCientifico: 'Pinguipes chilensis',
-      imageAsset: null, // Según tu array original, no tiene imagen definida para Rollizo
+      imageAsset: require('../imagenes/rollizo.png'), // Según tu array original, no tiene imagen definida para Rollizo
       caracteristicas: 'Cuerpo alargado, frente aplastada, labios gruesos de color amarillo. Dos bandas longitudinales de manchas claras irregulares sobre la línea lateral. Habita desde el submareal somero hasta los 100 metros de profundidad.', // (Sernapesca PDF Marinas p.29)
       senuelos: ["Jig", "Vinilo", "Minnow"], // Genéricos para Rollizo
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"], // Dieta incluye crustáceos, moluscos, equinodermos (Sernapesca PDF Marinas p.29)
@@ -2943,7 +2973,7 @@
   tipo: 'Playa', // Usando 'Playa' para referirse a la pesca costera general en la isla (playas y/o roqueríos accesibles)
   region: 'Biobío', // Administrativamente depende de Lebu [cite: 804]
   cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas de la isla.',
-  imagenFondoSecciones: null,
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
   especies: [
     {
       nombreComun: 'Róbalo',
@@ -2974,21 +3004,21 @@
       nombreCientifico: 'Odontesthes regia',
       imageAsset: require('../imagenes/pejerrey-de-mar.png'),
       caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre. Aletas y cola con tonos amarillo verdoso. Franja plateada lateral notoria.', // [cite: 233]
-      senuelos: ['Aparejo de pejerrey', 'Plumas brillantes'],
-      carnadas: ['Gueple de mar', 'Camarón pequeño', 'Filet de pescado'], // [cite: 237] (dieta general)
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"], // [cite: 237] (dieta general)
     },
     {
       nombreComun: 'Rollizo',
       nombreCientifico: 'Pinguipes chilensis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/rollizo.png'),
       caracteristicas: 'Cuerpo alargado, frente aplastada, labios gruesos de color amarillo. Dos bandas longitudinales de manchas claras irregulares sobre la línea lateral. Habita roqueríos cercanos a la costa y fondos de arena.', // [cite: 249, 250, 254]
       senuelos: ["Jig", "Vinilo", "Minnow"], // [cite: 410] (TNC Litorales)
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"], // [cite: 255, 411]
     },
     {
-      nombreComun: 'Vieja Negra (Mulata)',
+      nombreComun: 'Vieja Negra',
       nombreCientifico: 'Graus nigra',
-      imageAsset: null, // No definido en tu array original
+      imageAsset: require('../imagenes/vieja-negra.png'), // No definido en tu array original
       caracteristicas: 'Pez de color negro, con dos puntos blancos en cada costado de su lomo (adultos). Habita en fondos rocosos con grandes cuevas. Especie longeva y nativa de Chile y Perú.', // [cite: 318, 362, 364]
       senuelos: ["Jig", "Vinilo"], // [cite: 361] (TNC Litorales)
       carnadas: ["Lapa", "Jaiba", "Camarón", "Erizo", "Piure", "Almeja", "Choritos"], // [cite: 324, 363]
@@ -3003,7 +3033,7 @@
   tipo: 'Playa',
   region: 'Biobío',
   cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
-  imagenFondoSecciones: null,
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
   especies: [
     {
       nombreComun: 'Corvina',
@@ -3034,14 +3064,14 @@
       nombreCientifico: 'Odontesthes regia',
       imageAsset: require('../imagenes/pejerrey-de-mar.png'),
       caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre, con color amarillo verdoso en las aletas y borde de la cola. Franja plateada lateral notoria. [cite: 233]',
-      senuelos: ['Aparejo de pejerrey', 'Plumas brillantes'],
-      carnadas: ['Gueple de mar', 'Camarón pequeño', 'Filet de pescado'], // Su dieta incluye anfípodos, poliquetos, copépodos, larvas zoeas, plantas [cite: 237]
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"], // Su dieta incluye anfípodos, poliquetos, copépodos, larvas zoeas, plantas [cite: 237]
     },
     
     {
       nombreComun: 'Rollizo',
       nombreCientifico: 'Pinguipes chilensis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/rollizo.png'),
       caracteristicas: 'Cuerpo alargado, frente aplastada, labios gruesos de color amarillo. Dos bandas longitudinales de manchas claras irregulares sobre la línea lateral. Habita desde el submareal somero hasta los 100 metros de profundidad, asociado al fondo marino. [cite: 249, 250, 255, 410]',
       senuelos: ["Jig", "Vinilo", "Minnow"], // [cite: 413]
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"], // Su dieta incluye crustáceos, moluscos, poliquetos, equinodermos y urocordados. [cite: 255, 411]
@@ -3056,7 +3086,7 @@
   tipo: 'Playa',
   region: 'Arica y Parinacota',
   cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
-  imagenFondoSecciones: null,
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
   especies: [
     {
       nombreComun: 'Corvina',
@@ -3077,7 +3107,7 @@
     {
       nombreComun: 'Sargo',
       nombreCientifico: 'Anisotremus scapularis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/sargo.png'),
       caracteristicas: 'Cuerpo comprimido y de gran altura, color gris plateado con una mancha negra en el reborde del opérculo y base de las pectorales. Habita aguas litorales templadas, ya sea en playas de arena o sectores rocosos.', // (Sernapesca PDF Marinas p.32) [cite: 280, 281]
       senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"],
       carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"],
@@ -3087,21 +3117,21 @@
       nombreCientifico: 'Odontesthes regia',
       imageAsset: require('../imagenes/pejerrey-de-mar.png'),
       caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre, con color amarillo verdoso en las aletas y borde de la cola. Franja plateada lateral notoria.', // (Sernapesca PDF Marinas p.27) [cite: 233]
-      senuelos: ['Aparejo de pejerrey', 'Plumas brillantes'],
-      carnadas: ['Gueple de mar', 'Camarón pequeño', 'Filet de pescado'],
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
     },
     {
-      nombreComun: 'Tomoyo (Chalaco)',
+      nombreComun: 'Tomoyo',
       nombreCientifico: 'Labrisomus philippii', // (Sernapesca PDF Marinas p.34) [cite: 298]
-      imageAsset: null,
+      imageAsset: require('../imagenes/tomoyo.png'),
       caracteristicas: 'Peces de cuerpo alargado y discretamente comprimidos. Cirros presentes alrededor de los ojos. Habita sectores del intermareal rocoso a profundidades que no superan los 20 metros.', // (Sernapesca PDF Marinas p.34) [cite: 298, 301, 303]
-      senuelos: ["Jig", "Vinilo"], // (TNC Litorales p.11) [cite: 407]
-      carnadas: ["Pulga de mar", "Machuelo", "Almeja", "Piure", "Filete de pescado"], // (TNC Litorales p.11) [cite: 407]
+      senuelos: ["Jig", "Vinilo", "Minnow"], // (TNC Litorales p.11) [cite: 407]
+      carnadas: ["Pulga de mar", "Pequeños mariscos", "Camarón de roca"], // (TNC Litorales p.11) [cite: 407]
     },
     {
       nombreComun: 'Cabrilla Común',
       nombreCientifico: 'Paralabrax humeralis', // Consistente con tu array para el norte; Sernapesca PDF Marinas (p.20) describe Sebastes capensis como Cabrilla Común [cite: 153]
-      imageAsset: null,
+      imageAsset: require('../imagenes/cabrilla.png'),
       caracteristicas: 'Especie nativa que habita desde el Sur de Chile hasta el Perú. Vive en zonas costeras entre fondos rocosos y fondos de arena. Su alimentación consiste principalmente en peces y algunos crustáceos.', // (TNC Litorales p.12) [cite: 415, 416, 417]
       senuelos: ["Jigs", "Vinilos"],
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
@@ -3109,7 +3139,7 @@
     {
       nombreComun: 'Cabinza',
       nombreCientifico: 'Isacia conceptionis', // (Sernapesca PDF Marinas p.19) [cite: 142]
-      imageAsset: null,
+      imageAsset: require('../imagenes/cabinza.png'),
       caracteristicas: 'Pez de cuerpo fusiforme, moderadamente comprimido y alto. Aleta dorsal larga con una profunda incisión en forma de "V". Color gris-plateado en los flancos, con el dorso más oscuro. Habita sectores litorales cercanos a playas arenosas y zonas rocosas.', // (Sernapesca PDF Marinas p.19) [cite: 142, 143, 146, 149]
       senuelos: ["Jig", "Vinilo", "Plumillas"],
       carnadas: ["Pequeños trozos de camarón o filete de pescado", "lapa", "piure", "mariscos pequeños"], // Dieta incluye crustáceos, gusanos poliquetos y algas (Sernapesca PDF Marinas p.19) [cite: 151]
@@ -3124,7 +3154,7 @@
   tipo: 'Playa',
   region: 'Arica y Parinacota',
   cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
-  imagenFondoSecciones: null,
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
   especies: [ // Especies similares a Playa Chinchorro
     {
       nombreComun: 'Corvina',
@@ -3145,7 +3175,7 @@
     {
       nombreComun: 'Sargo',
       nombreCientifico: 'Anisotremus scapularis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/sargo.png'),
       caracteristicas: 'Cuerpo comprimido y alto, color gris plateado con una mancha negra en el opérculo.', // (Sernapesca PDF Marinas p.32) [cite: 280]
       senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"],
       carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"],
@@ -3155,21 +3185,21 @@
       nombreCientifico: 'Odontesthes regia',
       imageAsset: require('../imagenes/pejerrey-de-mar.png'),
       caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo. Franja plateada lateral notoria.', // (Sernapesca PDF Marinas p.27) [cite: 233]
-      senuelos: ['Aparejo de pejerrey', 'Plumas'],
-      carnadas: ['Gueple de mar', 'Camarón'],
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
     },
     {
-      nombreComun: 'Tomoyo (Chalaco)',
+      nombreComun: 'Tomoyo',
       nombreCientifico: 'Labrisomus philippii', // (Sernapesca PDF Marinas p.34) [cite: 298]
-      imageAsset: null,
+      imageAsset: require('../imagenes/tomoyo.png'),
       caracteristicas: 'Cuerpo alargado. Cirros presentes alrededor de los ojos. Habita intermareal rocoso.', // (Sernapesca PDF Marinas p.34) [cite: 298, 301, 303]
-      senuelos: ["Jig", "Vinilo"], // (TNC Litorales p.11) [cite: 407]
-      carnadas: ["Pulga de mar", "Machuelo", "Almeja", "Piure", "Filete de pescado"], // (TNC Litorales p.11) [cite: 407]
+      senuelos: ["Jig", "Vinilo", "Minnow"], // (TNC Litorales p.11) [cite: 407]
+      carnadas: ["Pulga de mar", "Pequeños mariscos", "Camarón de roca"], // (TNC Litorales p.11) [cite: 407]
     },
     {
       nombreComun: 'Cabrilla Común',
       nombreCientifico: 'Paralabrax humeralis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/cabrilla.png'),
       caracteristicas: 'Habita en zonas costeras entre fondos rocosos y arena. Se alimenta de peces y crustáceos.', // (TNC Litorales p.12) [cite: 415, 416, 417]
       senuelos: ["Jigs", "Vinilos"],
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
@@ -3184,7 +3214,7 @@
   tipo: 'Playa',
   region: 'Tarapacá',
   cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
-  imagenFondoSecciones: null,
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
   especies: [
     {
       nombreComun: 'Corvina',
@@ -3205,7 +3235,7 @@
     {
       nombreComun: 'Sargo',
       nombreCientifico: 'Anisotremus scapularis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/sargo.png'),
       caracteristicas: 'Cuerpo comprimido y de gran altura, color gris plateado con una mancha negra en el reborde del opérculo y base de las pectorales.', // (Sernapesca PDF Marinas p.32)
       senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"],
       carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"],
@@ -3215,13 +3245,13 @@
       nombreCientifico: 'Odontesthes regia',
       imageAsset: require('../imagenes/pejerrey-de-mar.png'),
       caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre. Franja plateada lateral notoria.', // (Sernapesca PDF Marinas p.27)
-      senuelos: ['Aparejo de pejerrey', 'Plumas brillantes'],
-      carnadas: ['Gueple de mar', 'Camarón pequeño', 'Filet de pescado'],
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
     },
     {
       nombreComun: 'Cabrilla Común',
       nombreCientifico: 'Paralabrax humeralis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/cabrilla.png'),
       caracteristicas: 'Especie nativa que habita desde el Sur de Chile hasta el Perú. Vive en zonas costeras entre fondos rocosos y fondos de arena.', // (TNC Litorales p.12)
       senuelos: ["Jigs", "Vinilos"],
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
@@ -3229,23 +3259,23 @@
     {
       nombreComun: 'Rollizo',
       nombreCientifico: 'Pinguipes chilensis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/rollizo.png'),
       caracteristicas: 'Cuerpo alargado, frente aplastada, labios gruesos de color amarillo. Habita desde el submareal somero hasta los 100 metros de profundidad.', // (Sernapesca PDF Marinas p.29)
       senuelos: ["Jig", "Vinilo", "Minnow"],
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
     },
     {
-      nombreComun: 'Tomoyo (Chalaco)',
+      nombreComun: 'Tomoyo',
       nombreCientifico: 'Labrisomus philippii',
-      imageAsset: null,
+      imageAsset: require('../imagenes/tomoyo.png'),
       caracteristicas: 'Peces de cuerpo alargado. Cirros presentes alrededor de los ojos. Habita sectores del intermareal rocoso.', // (Sernapesca PDF Marinas p.34)
-      senuelos: ["Jig", "Vinilo"],
-      carnadas: ["Pulga de mar", "Machuelo", "Almeja", "Piure", "Filete de pescado"],
+      senuelos: ["Jig", "Vinilo", "Minnow"],
+      carnadas: ["Pulga de mar", "Pequeños mariscos", "Camarón de roca"],
     },
     {
       nombreComun: 'Cabinza',
       nombreCientifico: 'Isacia conceptionis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/cabinza.png'),
       caracteristicas: 'Pez de cuerpo fusiforme, moderadamente comprimido y alto. Color gris-plateado en los flancos, con el dorso más oscuro.', // (Sernapesca PDF Marinas p.19)
       senuelos: ["Jig", "Vinilo", "Plumillas"],
       carnadas: ["Pequeños trozos de camarón o filete de pescado", "lapa", "piure", "mariscos pequeños"],
@@ -3260,7 +3290,7 @@
   tipo: 'Playa',
   region: 'Atacama',
   cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
-  imagenFondoSecciones: null,
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
   especies: [
     {
       nombreComun: 'Corvina',
@@ -3281,7 +3311,7 @@
     {
       nombreComun: 'Sargo',
       nombreCientifico: 'Anisotremus scapularis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/sargo.png'),
       caracteristicas: 'Cuerpo comprimido y de gran altura, color gris plateado con una mancha negra en el reborde del opérculo.',
       senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"],
       carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"],
@@ -3291,13 +3321,13 @@
       nombreCientifico: 'Odontesthes regia',
       imageAsset: require('../imagenes/pejerrey-de-mar.png'),
       caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre. Franja plateada lateral notoria.',
-      senuelos: ['Aparejo de pejerrey', 'Plumas'],
-      carnadas: ['Gueple de mar', 'Camarón pequeño'],
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
     },
     {
       nombreComun: 'Cabrilla Común',
       nombreCientifico: 'Paralabrax humeralis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/cabrilla.png'),
       caracteristicas: 'Vive en zonas costeras entre fondos rocosos y fondos de arena. Se alimenta de peces y crustáceos.',
       senuelos: ["Jigs", "Vinilos"],
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
@@ -3305,7 +3335,7 @@
     {
       nombreComun: 'Rollizo',
       nombreCientifico: 'Pinguipes chilensis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/rollizo.png'),
       caracteristicas: 'Cuerpo alargado, frente aplastada, labios gruesos de color amarillo. Habita fondos rocosos y arenosos.',
       senuelos: ["Jig", "Vinilo", "Minnow"],
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
@@ -3313,18 +3343,18 @@
     {
       nombreComun: 'Cojinova del Norte',
       nombreCientifico: 'Seriolella violacea', // (Sernapesca PDF Marinas p.22)
-      imageAsset: null, // Como en ID 29 (Playa Flamenco)
+      imageAsset: require('../imagenes/cojinova-del-norte.png'), // Como en ID 29 (Playa Flamenco)
       caracteristicas: 'Cuerpo ovalado y comprimido. Color azul oscuro en el dorso y plateado en el vientre. Habita cerca de la costa, sobre fondos arenosos o rocosos, en cardúmenes.', // (Sernapesca PDF Marinas p.22)
       senuelos: ["Jig", "Vinilo", "Chispa"],
       carnadas: ["Sardina", "Pejerrey"], // Se alimenta de peces pequeños (Sernapesca PDF Marinas p.22)
     },
     {
-      nombreComun: 'Tomoyo (Chalaco)',
+      nombreComun: 'Tomoyo',
       nombreCientifico: 'Labrisomus philippii',
-      imageAsset: null,
+      imageAsset: require('../imagenes/tomoyo.png'),
       caracteristicas: 'Peces de cuerpo alargado. Cirros presentes alrededor de los ojos. Habita sectores del intermareal rocoso.',
-      senuelos: ["Jig", "Vinilo"],
-      carnadas: ["Pulga de mar", "Machuelo", "Almeja", "Piure", "Filete de pescado"],
+      senuelos: ["Jig", "Vinilo", "Minnow"],
+      carnadas: ["Pulga de mar", "Pequeños mariscos", "Camarón de roca"],
     }
   ]
 },
@@ -3336,7 +3366,7 @@
   tipo: 'Playa', // Se refiere a la playa en la zona de la desembocadura
   region: 'Arica y Parinacota',
   cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
-  imagenFondoSecciones: null,
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
   especies: [ // Especies comunes para el norte grande, con influencia de desembocadura
     {
       nombreComun: 'Corvina',
@@ -3365,7 +3395,7 @@
     {
       nombreComun: 'Sargo',
       nombreCientifico: 'Anisotremus scapularis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/sargo.png'),
       caracteristicas: 'Cuerpo comprimido y de gran altura, color gris plateado con una mancha negra en el reborde del opérculo. Habita aguas litorales, fondos rocosos y arenosos, a veces cerca de desembocaduras.', // (Sernapesca PDF Marinas p.32)
       senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"],
       carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"],
@@ -3375,21 +3405,21 @@
       nombreCientifico: 'Odontesthes regia',
       imageAsset: require('../imagenes/pejerrey-de-mar.png'),
       caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre. Franja plateada lateral notoria. Frecuenta estuarios.', // (Sernapesca PDF Marinas p.27)
-      senuelos: ['Aparejo de pejerrey', 'Plumas brillantes'],
-      carnadas: ['Gueple de mar', 'Camarón pequeño'],
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
     },
     {
-      nombreComun: 'Tomoyo (Chalaco)',
+      nombreComun: 'Tomoyo',
       nombreCientifico: 'Labrisomus philippii', // (Sernapesca PDF Marinas p.34)
-      imageAsset: null,
+      imageAsset: require('../imagenes/tomoyo.png'),
       caracteristicas: 'Cuerpo alargado. Cirros presentes alrededor de los ojos. Habita sectores del intermareal rocoso, que pueden existir cerca de desembocaduras rocosas.', // (Sernapesca PDF Marinas p.34)
-      senuelos: ["Jig", "Vinilo"],
-      carnadas: ["Pulga de mar", "Machuelo", "Almeja", "Piure", "Filete de pescado"],
+      senuelos: ["Jig", "Vinilo", "Minnow"],
+      carnadas: ["Pulga de mar", "Pequeños mariscos", "Camarón de roca"],
     },
     {
       nombreComun: 'Cabrilla Común',
       nombreCientifico: 'Paralabrax humeralis', // Consistente con tu array para el norte
-      imageAsset: null,
+      imageAsset: require('../imagenes/cabrilla.png'),
       caracteristicas: 'Vive en zonas costeras entre fondos rocosos y arena. Puede encontrarse en zonas de desembocaduras con estructuras rocosas.', // (TNC Litorales p.12)
       senuelos: ["Jigs", "Vinilos"],
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
@@ -3404,7 +3434,7 @@
   tipo: 'Playa',
   region: 'Tarapacá',
   cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
-  imagenFondoSecciones: null,
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
   especies: [ // Especies típicas del litoral de Tarapacá
     {
       nombreComun: 'Corvina',
@@ -3425,7 +3455,7 @@
     {
       nombreComun: 'Sargo',
       nombreCientifico: 'Anisotremus scapularis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/sargo.png'),
       caracteristicas: 'Cuerpo comprimido y alto, color gris plateado con mancha negra en opérculo. Frecuente en Tarapacá.', // (Sernapesca PDF Marinas p.32)
       senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"],
       carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"],
@@ -3435,13 +3465,13 @@
       nombreCientifico: 'Odontesthes regia',
       imageAsset: require('../imagenes/pejerrey-de-mar.png'),
       caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo. Franja plateada lateral notoria. Presente en toda la costa norte.', // (Sernapesca PDF Marinas p.27)
-      senuelos: ['Aparejo de pejerrey', 'Plumas'],
-      carnadas: ['Gueple de mar', 'Camarón'],
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
     },
     {
       nombreComun: 'Cabrilla Común',
       nombreCientifico: 'Paralabrax humeralis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/cabrilla.png'),
       caracteristicas: 'Habita en zonas costeras entre fondos rocosos y arena. Común en Tarapacá.', // (TNC Litorales p.12)
       senuelos: ["Jigs", "Vinilos"],
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
@@ -3449,23 +3479,23 @@
     {
       nombreComun: 'Rollizo',
       nombreCientifico: 'Pinguipes chilensis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/rollizo.png'),
       caracteristicas: 'Cuerpo alargado, labios gruesos. Común en Tarapacá, en fondos rocosos y arena.', // (Sernapesca PDF Marinas p.29)
       senuelos: ["Jig", "Vinilo", "Minnow"],
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
     },
     {
-      nombreComun: 'Tomoyo (Chalaco)',
+      nombreComun: 'Tomoyo',
       nombreCientifico: 'Labrisomus philippii',
-      imageAsset: null,
+      imageAsset: require('../imagenes/tomoyo.png'),
       caracteristicas: 'Cuerpo alargado. Cirros presentes alrededor de los ojos. Común en intermareal rocoso de Tarapacá.', // (Sernapesca PDF Marinas p.34)
-      senuelos: ["Jig", "Vinilo"],
-      carnadas: ["Pulga de mar", "Machuelo", "Almeja", "Piure", "Filete de pescado"],
+      senuelos: ["Jig", "Vinilo", "Minnow"],
+      carnadas: ["Pulga de mar", "Pequeños mariscos", "Camarón de roca"],
     },
     {
       nombreComun: 'Cabinza',
       nombreCientifico: 'Isacia conceptionis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/cabinza.png'),
       caracteristicas: 'Cuerpo fusiforme, moderadamente comprimido. Color gris-plateado. Común en Tarapacá.', // (Sernapesca PDF Marinas p.19)
       senuelos: ["Jig", "Vinilo", "Plumillas"],
       carnadas: ["Pequeños trozos de camarón o filete de pescado", "lapa", "piure", "mariscos pequeños"],
@@ -3480,7 +3510,7 @@
   tipo: 'Playa',
   region: 'Antofagasta',
   cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
-  imagenFondoSecciones: null,
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
   especies: [
     {
       nombreComun: 'Corvina',
@@ -3493,7 +3523,7 @@
     {
       nombreComun: 'Sargo',
       nombreCientifico: 'Anisotremus scapularis', // [cite: 280]
-      imageAsset: null,
+      imageAsset: require('../imagenes/sargo.png'),
       caracteristicas: 'Cuerpo comprimido y de gran altura, presenta aletas con espinas y radios, cuerpo de color gris plateado con una mancha negra en el reborde del opérculo. [cite: 280] Pez de alta dinámica que se desplaza en pequeños cardúmenes en aguas litorales templadas. [cite: 282]',
       senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"], // Basado en prácticas comunes
       carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"], // Basado en prácticas comunes y dieta general de peces de roca
@@ -3501,7 +3531,7 @@
     {
       nombreComun: 'Cabrilla Común',
       nombreCientifico: 'Paralabrax humeralis', // Consistente con tu array para el norte; Sernapesca PDF Marinas (p.20) describe Sebastes capensis como Cabrilla Común. TNC Litorales p.12 [cite: 415]
-      imageAsset: null,
+      imageAsset: require('../imagenes/cabrilla.png'),
       caracteristicas: 'Es una especie nativa que habita desde el Sur de Chile hasta el Perú. Puede vivir hasta los 300 metros de profundidad y en zonas costeras entre fondos rocosos y fondos de arena. [cite: 416] Su alimentación consiste principalmente en peces y algunos crustáceos como el camarón de roca y los panchotes. [cite: 417]',
       senuelos: ["Jigs", "Vinilos"], // Recomendaciones TNC Litorales p.12 [cite: 419]
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"], // Recomendaciones TNC Litorales p.12 [cite: 419]
@@ -3509,23 +3539,23 @@
     {
       nombreComun: 'Rollizo',
       nombreCientifico: 'Pinguipes chilensis', // [cite: 249]
-      imageAsset: null,
+      imageAsset: require('../imagenes/rollizo.png'),
       caracteristicas: 'Cuerpo alargado, frente aplastada, labios gruesos de color amarillo. Presenta dos bandas longitudinales de manchas claras irregulares sobre la línea lateral. [cite: 249, 250] Habita desde el submareal somero hasta los 100 metros de profundidad, asociado al fondo marino. [cite: 255]',
       senuelos: ["Jig", "Vinilo", "Minnow"], // (TNC Litorales p.11) [cite: 413]
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"], // Su dieta está constituida por especies bentónicas como crustáceos, moluscos, poliquetos, equinodermos y urocordados. [cite: 255]
     },
     {
-      nombreComun: 'Tomoyo (Chalaco)',
+      nombreComun: 'Tomoyo',
       nombreCientifico: 'Labrisomus philippii', // [cite: 298]
-      imageAsset: null,
+      imageAsset: require('../imagenes/tomoyo.png'),
       caracteristicas: 'Peces de cuerpo alargado y discretamente comprimidos. Cirros presentes alrededor de los ojos. [cite: 300] Habita sectores del intermareal rocoso a profundidades que no superan los 20 metros. [cite: 303]',
-      senuelos: ["Jig", "Vinilo"], // (TNC Litorales p.11) [cite: 407]
-      carnadas: ["Pulga de mar", "Machuelo", "Almeja", "Piure", "Filete de pescado"], // Su alimentación consiste principalmente en crustáceos como cangrejos y panchotes y algunos moluscos. (TNC Litorales p.11) [cite: 405, 407]
+      senuelos: ["Jig", "Vinilo", "Minnow"], // (TNC Litorales p.11) [cite: 407]
+      carnadas: ["Pulga de mar", "Pequeños mariscos", "Camarón de roca"], // Su alimentación consiste principalmente en crustáceos como cangrejos y panchotes y algunos moluscos. (TNC Litorales p.11) [cite: 405, 407]
     },
     {
       nombreComun: 'Pejeperro',
       nombreCientifico: 'Semicossyphus darwini', // [cite: 223]
-      imageAsset: null,
+      imageAsset: require('../imagenes/pejeperro.png'),
       caracteristicas: 'Cuerpo alargado, algo comprimido, con una región cefálica de perfil cóncavo muy grande. Juveniles rojos con mancha amarilla, adultos gris azulado con mancha amarilla. [cite: 223, 225, 226] Habita en sustratos rocosos del submareal superior. [cite: 230]',
       senuelos: ["Vinilo", "Jig", "Minnow"], // (TNC Litorales p.8) [cite: 371]
       carnadas: ["Jaiba", "Erizo", "Choro zapato", "Lapa", "Camarón", "Chitones", "Almejas"], // Su alimentación consiste en lapas, pequeñas jaibas, locos, camarones, panchotes y erizos y estrellas de mar. (TNC Litorales p.8)[cite: 370]. Sernapesca PDF Marinas (p.26) indica moluscos como chitones y almejas, además de crustáceos y erizos. [cite: 231]
@@ -3535,8 +3565,8 @@
       nombreCientifico: 'Odontesthes regia', // [cite: 233]
       imageAsset: require('../imagenes/pejerrey-de-mar.png'),
       caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre, con color amarillo verdoso en las aletas y borde de la cola. Franja plateada lateral notoria. [cite: 233]',
-      senuelos: ['Aparejo de pejerrey', 'Plumas brillantes'],
-      carnadas: ['Gueple de mar', 'Camarón pequeño', 'Filet de pescado'], // Su dieta incluye anfípodos, poliquetos, copépodos, larvas zoeas, plantas. [cite: 237]
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"], // Su dieta incluye anfípodos, poliquetos, copépodos, larvas zoeas, plantas. [cite: 237]
     }
   ]
 },
@@ -3548,7 +3578,7 @@
   tipo: 'Playa',
   region: 'Coquimbo',
   cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
-  imagenFondoSecciones: null,
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
   especies: [
     {
       nombreComun: 'Corvina',
@@ -3569,7 +3599,7 @@
     {
       nombreComun: 'Sargo',
       nombreCientifico: 'Anisotremus scapularis', //
-      imageAsset: null,
+      imageAsset: require('../imagenes/sargo.png'),
       caracteristicas: 'Cuerpo comprimido y de gran altura, color gris plateado con una mancha negra en el reborde del opérculo y base de las pectorales. Pez de alta dinámica que se desplaza en pequeños cardúmenes en aguas litorales templadas, ya sea en playas de arena o sectores rocosos.', // (Sernapesca PDF Marinas p.32 [cite: 280, 282])
       senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"],
       carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"],
@@ -3579,13 +3609,13 @@
       nombreCientifico: 'Odontesthes regia', //
       imageAsset: require('../imagenes/pejerrey-de-mar.png'),
       caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre, con color amarillo verdoso en las aletas y borde de la cola. Franja plateada lateral notoria.', // (Sernapesca PDF Marinas p.27 [cite: 233])
-      senuelos: ['Aparejo de pejerrey', 'Plumas brillantes'],
-      carnadas: ['Gueple de mar', 'Camarón pequeño', 'Filet de pescado'], // Su dieta incluye anfípodos, poliquetos, copépodos, larvas zoeas, plantas (Sernapesca PDF Marinas p.27 [cite: 237]).
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"], // Su dieta incluye anfípodos, poliquetos, copépodos, larvas zoeas, plantas (Sernapesca PDF Marinas p.27 [cite: 237]).
     },
     {
       nombreComun: 'Rollizo',
       nombreCientifico: 'Pinguipes chilensis', //
-      imageAsset: null,
+      imageAsset: require('../imagenes/rollizo.png'),
       caracteristicas: 'Cuerpo alargado, frente aplastada, labios gruesos de color amarillo. Dos bandas longitudinales de manchas claras irregulares sobre la línea lateral. Habita desde el submareal somero hasta los 100 metros de profundidad, asociado al fondo marino.', // (Sernapesca PDF Marinas p.29 [cite: 249, 250, 255])
       senuelos: ["Jig", "Vinilo", "Minnow"], // (TNC Litorales p.11 [cite: 413])
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"], // Su dieta está constituida por especies bentónicas como crustáceos, moluscos, poliquetos, equinodermos y urocordados (Sernapesca PDF Marinas p.29 [cite: 255]).
@@ -3593,7 +3623,7 @@
     {
       nombreComun: 'Pejeperro',
       nombreCientifico: 'Semicossyphus darwini', //
-      imageAsset: null,
+      imageAsset: require('../imagenes/pejeperro.png'),
       caracteristicas: 'Cuerpo alargado, algo comprimido, con una región cefálica de perfil cóncavo muy grande. Juveniles rojos con mancha amarilla, adultos gris azulado con mancha amarilla. Habita en sustratos rocosos del submareal superior.', // (Sernapesca PDF Marinas p.26 [cite: 223, 225, 226, 230])
       senuelos: ["Vinilo", "Jig", "Minnow"], // (TNC Litorales p.8 [cite: 371])
       carnadas: ["Jaiba", "Erizo", "Choro zapato", "Lapa", "Camarón", "Chitones", "Almejas"], // Su alimentación consiste en moluscos como chitones y almejas, además de crustáceos y erizos (Sernapesca PDF Marinas p.26 [cite: 231]). TNC Litorales (p.8) [cite: 370] menciona lapas, pequeñas jaibas, locos, camarones, panchotes y erizos y estrellas de mar.
@@ -3608,7 +3638,7 @@
   tipo: 'Playa',
   region: 'Coquimbo',
   cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
-  imagenFondoSecciones: null,
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
   especies: [
     {
       nombreComun: 'Corvina',
@@ -3629,7 +3659,7 @@
     {
       nombreComun: 'Sargo',
       nombreCientifico: 'Anisotremus scapularis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/sargo.png'),
       caracteristicas: 'Cuerpo comprimido y de gran altura, color gris plateado con una mancha negra en el reborde del opérculo y base de las pectorales. Pez de alta dinámica que se desplaza en pequeños cardúmenes en aguas litorales templadas.', // (Sernapesca PDF Marinas p.32)
       senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"],
       carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"],
@@ -3639,13 +3669,13 @@
       nombreCientifico: 'Odontesthes regia',
       imageAsset: require('../imagenes/pejerrey-de-mar.png'),
       caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre, con color amarillo verdoso en las aletas y borde de la cola. Franja plateada lateral notoria.', // (Sernapesca PDF Marinas p.27)
-      senuelos: ['Aparejo de pejerrey', 'Plumas brillantes'],
-      carnadas: ['Gueple de mar', 'Camarón pequeño', 'Filet de pescado'], // Su dieta incluye anfípodos, poliquetos, copépodos, larvas zoeas, plantas (Sernapesca PDF Marinas p.27).
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"], // Su dieta incluye anfípodos, poliquetos, copépodos, larvas zoeas, plantas (Sernapesca PDF Marinas p.27).
     },
     {
       nombreComun: 'Rollizo',
       nombreCientifico: 'Pinguipes chilensis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/rollizo.png'),
       caracteristicas: 'Cuerpo alargado, frente aplastada, labios gruesos de color amarillo. Dos bandas longitudinales de manchas claras irregulares sobre la línea lateral. Habita desde el submareal somero hasta los 100 metros de profundidad.', // (Sernapesca PDF Marinas p.29)
       senuelos: ["Jig", "Vinilo", "Minnow"], // (TNC Litorales p.11)
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"], // Su dieta está constituida por especies bentónicas como crustáceos, moluscos, poliquetos, equinodermos y urocordados (Sernapesca PDF Marinas p.29).
@@ -3653,7 +3683,7 @@
     {
       nombreComun: 'Pejeperro',
       nombreCientifico: 'Semicossyphus darwini',
-      imageAsset: null,
+      imageAsset: require('../imagenes/pejeperro.png'),
       caracteristicas: 'Cuerpo alargado, algo comprimido, con una región cefálica de perfil cóncavo muy grande. Juveniles rojos con mancha amarilla, adultos gris azulado con mancha amarilla. Habita en sustratos rocosos del submareal superior.', // (Sernapesca PDF Marinas p.26)
       senuelos: ["Vinilo", "Jig", "Minnow"], // (TNC Litorales p.8)
       carnadas: ["Jaiba", "Erizo", "Choro zapato", "Lapa", "Camarón", "Chitones", "Almejas"], // Su alimentación consiste en moluscos como chitones y almejas, además de crustáceos y erizos (Sernapesca PDF Marinas p.26).
@@ -3668,7 +3698,7 @@
   tipo: 'Playa',
   region: 'Atacama',
   cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
-  imagenFondoSecciones: null,
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
   especies: [
     {
       nombreComun: 'Corvina',
@@ -3689,7 +3719,7 @@
     {
       nombreComun: 'Sargo',
       nombreCientifico: 'Anisotremus scapularis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/sargo.png'),
       caracteristicas: 'Cuerpo comprimido y de gran altura, color gris plateado con una mancha negra en el reborde del opérculo y base de las pectorales.', // (Sernapesca PDF Marinas p.32)
       senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"],
       carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"],
@@ -3699,13 +3729,13 @@
       nombreCientifico: 'Odontesthes regia',
       imageAsset: require('../imagenes/pejerrey-de-mar.png'),
       caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre, con color amarillo verdoso en las aletas y borde de la cola. Franja plateada lateral notoria.', // (Sernapesca PDF Marinas p.27)
-      senuelos: ['Aparejo de pejerrey', 'Plumas brillantes'],
-      carnadas: ['Gueple de mar', 'Camarón pequeño', 'Filet de pescado'],
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
     },
     {
       nombreComun: 'Cabrilla Común',
       nombreCientifico: 'Paralabrax humeralis', // Consistente con tu array para el norte
-      imageAsset: null,
+      imageAsset: require('../imagenes/cabrilla.png'),
       caracteristicas: 'Especie nativa que habita desde el Sur de Chile hasta el Perú. Vive en zonas costeras entre fondos rocosos y fondos de arena.', // (TNC Litorales p.12)
       senuelos: ["Jigs", "Vinilos"],
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
@@ -3713,7 +3743,7 @@
     {
       nombreComun: 'Rollizo',
       nombreCientifico: 'Pinguipes chilensis',
-      imageAsset: null,
+      imageAsset: require('../imagenes/rollizo.png'),
       caracteristicas: 'Cuerpo alargado, frente aplastada, labios gruesos de color amarillo. Dos bandas longitudinales de manchas claras irregulares sobre la línea lateral.', // (Sernapesca PDF Marinas p.29)
       senuelos: ["Jig", "Vinilo", "Minnow"],
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
@@ -3721,7 +3751,7 @@
     {
       nombreComun: 'Cojinova del Norte',
       nombreCientifico: 'Seriolella violacea',
-      imageAsset: null, // Como en ID 29 (Playa Flamenco)
+      imageAsset: require('../imagenes/cojinova-del-norte.png'), // Como en ID 29 (Playa Flamenco)
       caracteristicas: 'Cuerpo ovalado y comprimido. Color azul oscuro en el dorso y plateado en el vientre. Habita cerca de la costa, sobre fondos arenosos o rocosos, en cardúmenes.', // (Sernapesca PDF Marinas p.22)
       senuelos: ["Jig", "Vinilo", "Chispa"],
       carnadas: ["Sardina", "Pejerrey"], // Se alimenta de peces pequeños (Sernapesca PDF Marinas p.22)
@@ -3736,7 +3766,7 @@
   tipo: 'Playa',
   region: 'Atacama',
   cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
-  imagenFondoSecciones: null,
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
   especies: [
     {
       nombreComun: 'Corvina',
@@ -3757,7 +3787,7 @@
     {
       nombreComun: 'Sargo',
       nombreCientifico: 'Anisotremus scapularis', // [cite: 280]
-      imageAsset: null,
+      imageAsset: require('../imagenes/sargo.png'),
       caracteristicas: 'Cuerpo comprimido y de gran altura, presenta aletas con espinas y radios, cuerpo de color gris plateado con una mancha negra en el reborde del opérculo, base de las pectorales y en la base del último radio dorsal y anal. [cite: 280]',
       senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"], // TNC Litorales p.13 [cite: 432]
       carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"], // TNC Litorales p.13 [cite: 432] (adaptado)
@@ -3767,13 +3797,13 @@
       nombreCientifico: 'Odontesthes regia', // [cite: 233]
       imageAsset: require('../imagenes/pejerrey-de-mar.png'),
       caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre, con color amarillo verdoso en las aletas y borde de la cola. Franja plateada lateral notoria. [cite: 233]',
-      senuelos: ['Aparejo de pejerrey', 'Plumas brillantes'],
-      carnadas: ['Gueple de mar', 'Camarón pequeño', 'Filet de pescado'], // Su dieta incluye anfípodos, poliquetos, copépodos, larvas zoeas y plantas [cite: 237]
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"], // Su dieta incluye anfípodos, poliquetos, copépodos, larvas zoeas y plantas [cite: 237]
     },
     {
       nombreComun: 'Cabrilla Común',
       nombreCientifico: 'Paralabrax humeralis', // TNC Litorales p.12 [cite: 415]
-      imageAsset: null,
+      imageAsset: require('../imagenes/cabrilla.png'),
       caracteristicas: 'Es una especie nativa que habita desde el Sur de Chile hasta el Perú. Puede vivir hasta los 300 metros de profundidad y en zonas costeras entre fondos rocosos y fondos de arena. [cite: 416] Su alimentación consiste principalmente en peces y algunos crustáceos como el camarón de roca y los panchotes. [cite: 417]',
       senuelos: ["Jigs", "Vinilos"], // TNC Litorales p.12 [cite: 419] (adaptado)
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"], // TNC Litorales p.12 [cite: 419] (adaptado)
@@ -3781,7 +3811,7 @@
     {
       nombreComun: 'Rollizo',
       nombreCientifico: 'Pinguipes chilensis', // [cite: 249]
-      imageAsset: null,
+      imageAsset: require('../imagenes/rollizo.png'),
       caracteristicas: 'Cuerpo alargado, frente aplastada, labios gruesos de color amarillo. [cite: 249] Dos bandas longitudinales de manchas claras irregulares sobre la línea lateral. [cite: 250] Habita desde el submareal somero hasta los 100 metros de profundidad, asociado al fondo marino. [cite: 255]',
       senuelos: ["Jig", "Vinilo", "Minnow"], // TNC Litorales p.11 [cite: 410] (adaptado)
       carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"], // Su dieta está constituida por especies bentónicas como crustáceos, moluscos, poliquetos, equinodermos y urocordados [cite: 255]
@@ -3789,19 +3819,784 @@
     {
       nombreComun: 'Cojinova del Norte',
       nombreCientifico: 'Seriolella violacea', // [cite: 170]
-      imageAsset: null,
+      imageAsset: require('../imagenes/cojinova-del-norte.png'),
       caracteristicas: 'Peces de cuerpo fusiforme, con pedúnculo caudal angosto. Cabeza y dorso de color azul-negruzco, flancos y vientre de color plateados. [cite: 171] Especie pelágica, preferentemente costera de hábitos gregarios. [cite: 177]',
       senuelos: ["Jig", "Vinilo", "Chispa"],
       carnadas: ["Sardina", "Pejerrey"], // Sus hábitos alimenticios principalmente de peces como sardinas, anchovetas y jureles pequeños, además de crustáceos [cite: 179]
     }
   ]
+},
+{
+  id: 86,
+  nombre: 'Muelle Barón',
+  latitude: -33.04157376745401,
+  longitude: -71.60800722757271,
+  tipo: 'Muelle', // Tipo de lugar
+  region: 'Valparaíso',
+  cuota: 'Consultar SERNAPESCA.', // Información estándar de cuota
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'), // Puedes agregar una imagen de fondo si lo deseas
+  especies: [
+    {
+      nombreComun: 'Jurel',
+      nombreCientifico: 'Trachurus murphyi', // Jurel común del Pacífico Sur
+      imageAsset: require('../imagenes/jurel.png'), // Cambiado de require('../imagenes/jurel.png') según tu última entrada.
+      caracteristicas: 'Cuerpo alargado y comprimido, de color azul verdoso en el dorso y plateado en el vientre. Línea lateral muy marcada con escudetes óseos. Los adultos se alimentan de peces pequeños.', // Basado en TNC Litorales PDF p.23
+      senuelos: ["Vinilos", "Jigs", "Minnow", "Plumillas"],
+      carnadas: ["Gusanos", "Camarones", "Filete de pescado"],
+    },
+    {
+      nombreComun: 'Corvina',
+      nombreCientifico: 'Cilus gilberti',
+      imageAsset: require('../imagenes/corvina.png'),
+      caracteristicas: 'Se puede capturar desde el molo o playa, especialmente al atardecer.',
+      senuelos: ["Chispa", "Minnow", "Jig", "Vinilos", "Metal vibs grandes", "Plumillas", "Bucktail"],
+      carnadas: ["Pulga de mar", "Nape", "Pejerrey", "Sardina", "Moluscos ocasionalmente (Lapa , Piure , Almeja)", "Gueple de mar (lombriz)"],
+    },
+    {
+      nombreComun: 'Pejerrey de Mar',
+      nombreCientifico: 'Odontesthes regia',
+      imageAsset: require('../imagenes/pejerrey-de-mar.png'),
+      caracteristicas: 'Común en muelles y escolleras, pesca con flotador.',
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
+    },
+    {
+      nombreComun: 'Lenguado de Arena', // Asumiendo este tipo de lenguado
+      nombreCientifico: 'Paralichthys adspersus',
+      imageAsset: require('../imagenes/lenguado.png'),
+      caracteristicas: 'Cuerpo ovalado y comprimido, coloración variable para mimetizarse con fondos arenosos.',
+      senuelos: ["Vinilos que imiten peces pequeños", "Jigs ligeros", "Señuelos tipo pejerrey"],
+      carnadas: ["Pejerrey (vivo o muerto)", "Sardina", "Filete de pescado"],
+    },
+    {
+      nombreComun: 'Sierra',
+      nombreCientifico: 'Thyrsites atun', // Sernapesca Marinas PDF p.33 [cite: 284]
+      imageAsset: require('../imagenes/sierra.png'), // Como solicitaste
+      caracteristicas: 'Cuerpo alargado y fuertemente comprimido, con mandíbula inferior prominente. Color plateado brillante, dorso más oscuro. Presenta pequeñas aletillas detrás de la dorsal y anal. Puede alcanzar tamaños considerables.', // Basado en Sernapesca Marinas PDF p.33 [cite: 285, 287, 289, 290]
+      senuelos: ["Jig", "Chispa", "Plumilla", "Minnow"], // Proporcionado por ti
+      carnadas: ["Filete de pescado"], // Proporcionado por ti (Suelen ser predadores de otros peces) [cite: 294]
+    }
+  ],
+},
+{
+  id: 87,
+  nombre: 'Muelle Vergara',
+  latitude: -33.01142230244984,
+  longitude: -71.5544512643862,
+  tipo: 'Muelle',
+  region: 'Valparaíso',
+  cuota: 'Consultar SERNAPESCA.',
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
+  especies: [
+    {
+      nombreComun: 'Jurel',
+      nombreCientifico: 'Trachurus murphyi',
+      imageAsset: require('../imagenes/jurel.png'), // Asegúrate de tener esta imagen
+      caracteristicas: 'Cuerpo alargado y comprimido, de color azul verdoso en el dorso y plateado en el vientre. Línea lateral muy marcada con escudetes óseos. Común en muelles y escolleras.', // Basado en TNC Litorales PDF p.23
+      senuelos: ["Vinilos", "Jigs", "Minnow", "Plumillas", "Sabiki"], // Sabiki incluido
+      carnadas: ["Gusanos de mar", "Camarones", "Filete de pescado"], // "Masa" (similar a pan) eliminada
+    },
+    {
+      nombreComun: 'Tomoyo',
+      nombreCientifico: 'Labrisomidae', // Familia de varias especies de Tomoyos/Chalacos
+      imageAsset: require('../imagenes/tomoyo.png'), // Puedes agregar una imagen específica si la tienes
+      caracteristicas: 'Peces de cuerpo alargado, a menudo con cirros en la cabeza. Habitan fondos rocosos y estructuras de muelles, no muy profundos. Varias especies son difíciles de diferenciar.', // Info general, ver TNC Litorales p.11 / Sernapesca Marinas PDF p.34
+      senuelos: ["Jig", "Vinilo", "Minnow"],
+      carnadas: ["Pulga de mar", "Pequeños mariscos", "Camarón de roca"], // Basado en TNC Litorales p.11
+    },
+    {
+      nombreComun: 'Cabrilla Común',
+      nombreCientifico: 'Paralabrax humeralis', // Común en roqueríos y estructuras
+      imageAsset: require('../imagenes/cabrilla.png'), // Puedes agregar una imagen específica si la tienes
+      caracteristicas: 'Cuerpo robusto, coloración variable café-rojiza a gris con manchas oscuras. Vive en fondos rocosos y cerca de estructuras, cazador de emboscada.', // Basado en TNC Litorales p.12
+      senuelos: ["Jigs", "Vinilos"], // Basado en TNC Litorales p.12
+      carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"], // Basado en TNC Litorales p.12
+    }
+  ],
+},
+{
+  id: 88,
+  nombre: 'Laguna Verde',
+  latitude: -33.10224443994046,
+  longitude: -71.67410086059395,
+  tipo: 'Playa', // Laguna Verde es una caleta/playa con roqueríos, apta para estas especies marinas.
+  region: 'Valparaíso',
+  cuota: 'Consultar SERNAPESCA.',
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
+  especies: [
+    {
+      nombreComun: 'Jurel',
+      nombreCientifico: 'Trachurus murphyi',
+      imageAsset: require('../imagenes/jurel.png'), // Si no tienes 'jurel.png', cambia esto a null o al nombre de tu imagen genérica.
+      caracteristicas: 'Cuerpo alargado y comprimido, de color azul verdoso en el dorso y plateado en el vientre. Línea lateral muy marcada con escudetes óseos. Se acerca a la costa, pudiendo ser capturado desde orilla en puntos estratégicos.', // Basado en TNC Litorales PDF p.23
+      senuelos: ["Vinilos", "Jigs", "Minnow", "Plumillas", "Sabiki"],
+      carnadas: ["Gusanos de mar", "Camarones", "Filete de pescado"],
+    },
+    {
+      nombreComun: 'Corvina',
+      nombreCientifico: 'Cilus gilberti',
+      imageAsset: require('../imagenes/corvina.png'),
+      caracteristicas: 'Pez de cuerpo fusiforme, se puede capturar en playas y roqueríos, especialmente al amanecer o atardecer.',
+      senuelos: ["Chispa", "Minnow", "Jig", "Vinilos", "Metal vibs grandes", "Plumillas", "Bucktail"],
+      carnadas: ["Pulga de mar", "Nape", "Pejerrey", "Sardina", "Moluscos ocasionalmente (Lapa , Piure , Almeja)", "Gueple de mar (lombriz)"],
+    },
+    {
+      nombreComun: 'Pejerrey de Mar',
+      nombreCientifico: 'Odontesthes regia',
+      imageAsset: require('../imagenes/pejerrey-de-mar.png'),
+      caracteristicas: 'Común en la orilla de playas y roqueríos. Pesca ligera y con flotador es usual.',
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"], // La masa es carnada común para pejerrey.
+    },
+    {
+      nombreComun: 'Lenguado de Arena',
+      nombreCientifico: 'Paralichthys adspersus',
+      imageAsset: require('../imagenes/lenguado.png'),
+      caracteristicas: 'Cuerpo ovalado y comprimido, coloración variable para mimetizarse con fondos arenosos cerca de roqueríos o en playas.',
+      senuelos: ["Vinilos que imiten peces pequeños", "Jigs ligeros", "Señuelos tipo pejerrey"],
+      carnadas: ["Pejerrey (vivo o muerto)", "Sardina", "Filete de pescado"],
+    },
+    {
+      nombreComun: 'Tomoyo',
+      nombreCientifico: 'Labrisomidae', // Familia que agrupa varias especies de Tomoyos/Chalacos
+      imageAsset: require('../imagenes/tomoyo.png'), // No teníamos una imagen específica definida para este grupo.
+      caracteristicas: 'Peces de cuerpo alargado, comunes en pozas intermareales y roqueríos costeros. Suelen tener cirros en la cabeza y coloración mimética.', // Info general, ver TNC Litorales p.11 / Sernapesca Marinas PDF p.34
+      senuelos: ["Jig", "Vinilo", "Minnow"],
+      carnadas: ["Pulga de mar", "Pequeños mariscos", "Camarón de roca"], // Basado en TNC Litorales p.11
+    }
+  ],
+},
+{
+  id: 89,
+  nombre: 'Playa Ritoque',
+  latitude: -32.82864407164183,
+  longitude: -71.52527860715843,
+  tipo: 'Playa',
+  region: 'Valparaíso',
+  cuota: 'Consultar SERNAPESCA.',
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
+  especies: [
+    {
+      nombreComun: 'Corvina',
+      nombreCientifico: 'Cilus gilberti',
+      imageAsset: require('../imagenes/corvina.png'), // Asumiendo que tienes esta imagen
+      caracteristicas: 'Pez de cuerpo fusiforme, muy cotizado en pesca de orilla. Se encuentra en rompientes y pozones de playas.',
+      senuelos: ["Chispa", "Minnow", "Jig", "Vinilos", "Metal vibs grandes", "Plumillas", "Bucktail"],
+      carnadas: ["Pulga de mar", "Nape", "Pejerrey", "Sardina", "Moluscos ocasionalmente (Lapa , Piure , Almeja)", "Gueple de mar (lombriz)"],
+    },
+    {
+      nombreComun: 'Lenguado de Arena', // Asumiendo este tipo de lenguado para playa
+      nombreCientifico: 'Paralichthys adspersus',
+      imageAsset: require('../imagenes/lenguado.png'), // Asumiendo que tienes esta imagen
+      caracteristicas: 'Cuerpo plano, se mimetiza con fondos arenosos. Común en la pesca de orilla en playas.',
+      senuelos: ["Vinilos que imiten peces pequeños", "Jigs ligeros", "Señuelos tipo pejerrey"],
+      carnadas: ["Pejerrey (vivo o muerto)", "Sardina", "Filete de pescado"],
+    },
+    {
+      nombreComun: 'Pejerrey de Mar',
+      nombreCientifico: 'Odontesthes regia',
+      imageAsset: require('../imagenes/pejerrey-de-mar.png'), // Asumiendo que tienes esta imagen
+      caracteristicas: 'Nada en cardúmenes cerca de la orilla. Muy popular en la pesca recreativa de playa.',
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
+    },
+    {
+      nombreComun: 'Cabinza',
+      nombreCientifico: 'Isacia conceptionis',
+      imageAsset: null, // No tenemos imagen definida para Cavinza
+      caracteristicas: 'Cuerpo alargado y comprimido, coloración gris plateada, más oscura en el dorso. Forma cardúmenes en zonas costeras.', // Sernapesca Marinas PDF p.39 / TNC Litorales PDF p.22
+      senuelos: ["Plumillas (tipo sabiki con anzuelos pequeños)", "Jigs muy pequeños y brillantes"], // Sernapesca Marinas PDF p.39 / TNC Litorales PDF p.22
+      carnadas: ["Gusanos de mar (trozos pequeños)", "Camarón pequeño", "Pulga de mar", "Trocitos de pescado"], // Sernapesca Marinas PDF p.39 / TNC Litorales PDF p.22
+    },
+    {
+      nombreComun: 'Cabrilla Común',
+      nombreCientifico: 'Paralabrax humeralis',
+      imageAsset: require('../imagenes/cabrilla.png'), // No tenemos imagen definida para Cabrilla
+      caracteristicas: 'Cuerpo robusto, coloración variable. Se encuentra en fondos rocosos cercanos a playas o en rompientes con estructuras.', // Basado en TNC Litorales p.12
+      senuelos: ["Jigs", "Vinilos"],
+      carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
+    }
+  ],
+},
+{
+  id: 90,
+  nombre: 'Playa Ventanas',
+  latitude: -32.741144604755185,
+  longitude: -71.49166229746554,
+  tipo: 'Playa',
+  region: 'Valparaíso',
+  cuota: 'Consultar SERNAPESCA.',
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
+  especies: [
+    {
+      nombreComun: 'Corvina',
+      nombreCientifico: 'Cilus gilberti',
+      imageAsset: require('../imagenes/corvina.png'), // Asumiendo que tienes esta imagen
+      caracteristicas: 'Pez de cuerpo fusiforme, se captura en playas con oleaje y pozones. Activa al amanecer y atardecer.',
+      senuelos: ["Chispa", "Minnow", "Jig", "Vinilos", "Metal vibs grandes", "Plumillas", "Bucktail"],
+      carnadas: ["Pulga de mar", "Nape", "Pejerrey", "Sardina", "Moluscos ocasionalmente (Lapa , Piure , Almeja)", "Gueple de mar (lombriz)"],
+    },
+    {
+      nombreComun: 'Lenguado de Arena',
+      nombreCientifico: 'Paralichthys adspersus',
+      imageAsset: require('../imagenes/lenguado.png'), // Asumiendo que tienes esta imagen
+      caracteristicas: 'Pez plano que se mimetiza con fondos arenosos. Se encuentra en la orilla de playas, a menudo cerca de la rompiente.',
+      senuelos: ["Vinilos que imiten peces pequeños", "Jigs ligeros", "Señuelos tipo pejerrey"],
+      carnadas: ["Pejerrey (vivo o muerto)", "Sardina", "Filete de pescado"],
+    },
+    {
+      nombreComun: 'Pejerrey de Mar',
+      nombreCientifico: 'Odontesthes regia',
+      imageAsset: require('../imagenes/pejerrey-de-mar.png'), // Asumiendo que tienes esta imagen
+      caracteristicas: 'Forma cardúmenes y es común en la pesca de orilla. Cuerpo plateado con franja lateral distintiva.',
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
+    },
+    {
+      nombreComun: 'Rollizo',
+      nombreCientifico: 'Pinguipes chilensis',
+      imageAsset: require('../imagenes/rollizo.png'), // No teníamos imagen para Rollizo en entradas anteriores
+      caracteristicas: 'Cuerpo alargado, frente aplastada, labios gruesos amarillos. Dos bandas longitudinales de manchas claras. Habita roqueríos y fondos de arena cercanos a la playa. [cite: 249, 250]', // Sernapesca Marinas PDF p.29
+      senuelos: ["Jig", "Vinilo", "Minnow"], // TNC Litorales PDF p.11 [cite: 413]
+      carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"], // Dieta incluye crustáceos, moluscos, etc. [cite: 255]
+    },
+    {
+      nombreComun: 'Cabrilla Común',
+      nombreCientifico: 'Paralabrax humeralis',
+      imageAsset: require('../imagenes/cabrilla.png'), // No teníamos imagen para Cabrilla en entradas anteriores
+      caracteristicas: 'Cuerpo robusto, coloración variable café-rojiza a gris con manchas. Se encuentra en fondos rocosos y estructuras cercanas a la playa.', // Basado en TNC Litorales PDF p.12 [cite: 416]
+      senuelos: ["Jigs", "Vinilos"],
+      carnadas: ["Pulga de mar", "jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"],
+    }
+  ],
+},
+{
+  id: 91,
+  nombre: 'Playa Pangal, Maullín',
+  latitude: -41.605873039244464,
+  longitude: -73.65426066559522,
+  tipo: 'Playa',
+  region: 'Los Lagos',
+  cuota: 'Consultar SERNAPESCA.',
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
+  especies: [
+    {
+      nombreComun: 'Róbalo',
+      nombreCientifico: 'Eleginops maclovinus',
+      imageAsset: require('../imagenes/robalo.png'),
+      caracteristicas: 'Especie emblemática de desembocaduras y zonas estuarinas. Cuerpo alargado, busca la mezcla de agua dulce y salada.',
+      senuelos: ["Vinilos", "Metal vibs", "Minnows", "Plumillas", "Cucharas"],
+      carnadas: ["Gueple de mar", "Nape", "Almeja", "Jibia", "Camarón", "Pulga de mar", "Camarón de río/mar", "Pancora", "Lombriz de tierra", "Lapa"],
+    },
+    {
+      nombreComun: 'Corvina', // Actualizado según tu indicación
+      nombreCientifico: 'Cilus gilberti',
+      imageAsset: require('../imagenes/corvina.png'),
+      caracteristicas: 'Presente en playas expuestas, busca alimento en la rompiente.', // Actualizado
+      senuelos: ["Chispa", "Minnow", "Jig", "Vinilos", "Metal vibs grandes", "Plumillas", "Bucktail"], // Actualizado
+      carnadas: ["Pulga de mar", "Nape", "Pejerrey", "Sardina", "Moluscos ocasionalmente (Lapa , Piure , Almeja)", "Gueple de mar (lombriz)"], // Actualizado
+    },
+    {
+      nombreComun: 'Lenguado Chileno', // Nombre Común actualizado (antes "Lenguado de Arena")
+      nombreCientifico: 'Paralichthys adspersus',
+      imageAsset: require('../imagenes/lenguado.png'),
+      caracteristicas: 'Pez plano de fondos arenosos, se acerca a la orilla para cazar.', // Actualizado
+      senuelos: ["Chispa", "Minnow", "Jig", "Vinilo", "Metal vibs grandes", "Plumillas", "Bucktail"], // Actualizado
+      carnadas: ["Pejerrey", "sardina"], // Actualizado
+    },
+    {
+      nombreComun: 'Pejerrey de Mar', // Actualizado según tu indicación
+      nombreCientifico: 'Odontesthes regia',
+      imageAsset: require('../imagenes/pejerrey-de-mar.png'),
+      caracteristicas: 'Forma cardúmenes en la zona costera.', // Actualizado
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"], // Actualizado
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"], // Actualizado
+    }
+  ],
+},
+{
+  id: 92,
+  nombre: 'Playa Maicolpué',
+  latitude: -40.595139212735745,
+  longitude: -73.73557678092587,
+  tipo: 'Playa',
+  region: 'Los Lagos',
+  cuota: 'Consultar SERNAPESCA.',
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
+  especies: [
+    {
+      nombreComun: 'Róbalo',
+      nombreCientifico: 'Eleginops maclovinus',
+      imageAsset: require('../imagenes/robalo.png'),
+      caracteristicas: 'Especie emblemática de desembocaduras y zonas estuarinas. Cuerpo alargado, busca la mezcla de agua dulce y salada.',
+      senuelos: ["Vinilos", "Metal vibs", "Minnows", "Plumillas", "Cucharas"],
+      carnadas: ["Gueple de mar", "Nape", "Almeja", "Jibia", "Camarón", "Pulga de mar", "Camarón de río/mar", "Pancora", "Lombriz de tierra", "Lapa"],
+    },
+    {
+      nombreComun: 'Corvina',
+      nombreCientifico: 'Cilus gilberti',
+      imageAsset: require('../imagenes/corvina.png'),
+      caracteristicas: 'Presente en playas expuestas, busca alimento en la rompiente.',
+      senuelos: ["Chispa", "Minnow", "Jig", "Vinilos", "Metal vibs grandes", "Plumillas", "Bucktail"],
+      carnadas: ["Pulga de mar", "Nape", "Pejerrey", "Sardina", "Moluscos ocasionalmente (Lapa , Piure , Almeja)", "Gueple de mar (lombriz)"],
+    },
+    {
+      nombreComun: 'Lenguado Chileno',
+      nombreCientifico: 'Paralichthys adspersus',
+      imageAsset: require('../imagenes/lenguado.png'),
+      caracteristicas: 'Pez plano de fondos arenosos, se acerca a la orilla para cazar.',
+      senuelos: ["Chispa", "Minnow", "Jig", "Vinilo", "Metal vibs grandes", "Plumillas", "Bucktail"],
+      carnadas: ["Pejerrey", "sardina"],
+    },
+    {
+      nombreComun: 'Pejerrey de Mar',
+      nombreCientifico: 'Odontesthes regia',
+      imageAsset: require('../imagenes/pejerrey-de-mar.png'),
+      caracteristicas: 'Forma cardúmenes en la zona costera.',
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"],
+    }
+  ],
+},
+{
+  id: 100,
+  nombre: 'Playa Caleta de Hornos',
+  latitude: -29.620859867166875,
+  longitude: -71.28720900103178,
+  tipo: 'Playa',
+  region: 'Coquimbo',
+  cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
+  especies: [
+    {
+      nombreComun: 'Corvina',
+      nombreCientifico: 'Cilus gilberti',
+      imageAsset: require('../imagenes/corvina.png'),
+      caracteristicas: 'Pez fusiforme, comprimido, dorso azulado, flancos celestes y vientre blanco-plateado. Aletas anaranjadas. Boca con poros sensoriales.',
+      senuelos: ['Chispa', 'Minnow', 'Jig', 'Vinilos', 'Metal vibs grandes', 'Plumillas', 'Bucktail'],
+      carnadas: ['Pulga de mar', 'Nape', 'Pejerrey', 'Sardina', 'Moluscos ocasionalmente (Lapa , Piure , Almeja)', 'Gueple de mar (lombriz)']
+    },
+    {
+      nombreComun: 'Lenguado Chileno',
+      nombreCientifico: 'Paralichthys adspersus',
+      imageAsset: require('../imagenes/lenguado.png'),
+      caracteristicas: 'Cuerpo ovalado, comprimido, ambos ojos en el lado izquierdo. Lado oculado café oscuro, lado ciego cremoso. Se mimetiza con el fondo.',
+      senuelos: ['Chispa', 'Minnow', 'Jig', 'Vinilo', 'Metal vibs grandes', 'Plumillas', 'Bucktail'],
+      carnadas: ['Pejerrey', 'sardina']
+    },
+    {
+      nombreComun: 'Rollizo',
+      nombreCientifico: 'Pinguipes chilensis',
+      imageAsset: require('../imagenes/rollizo.png'),
+      caracteristicas: 'Cuerpo alargado y algo comprimido, color café verdoso con puntos y manchas claras.',
+      senuelos: ['Jig', 'Vinilo', 'Minnow'],
+      carnadas: ['Pulga de mar', 'Jibia', 'Piure', 'Lapa', 'Chorito', 'Machuelo', 'Pancora blanda']
+    },
+    {
+      nombreComun: 'Pejeperro',
+      nombreCientifico: 'Semicossyphus darwini',
+      imageAsset: require('../imagenes/pejeperro.png'),
+      caracteristicas: 'Coloración rojiza con tonos anaranjados, cuerpo robusto, mandíbulas fuertes. Presente en zonas rocosas costeras.',
+      senuelos: ['Vinilo', 'Jig', 'Minnow'],
+      carnadas: ['Jaiba', 'Erizo', 'Choro zapato', 'Lapa', 'Camarón', 'Chitones', 'Almejas']
+    },
+    {
+      nombreComun: 'Vieja Negra',
+      nombreCientifico: 'Graus nigra',
+      imageAsset: require('../imagenes/vieja-negra.png'),
+      caracteristicas: 'Pez robusto de coloración oscura. Presente en fondos rocosos, cuevas y bosques de algas. Muy territorial.',
+      senuelos: ['Jig', 'Vinilo'],
+      carnadas: ['Lapa', 'Jaiba', 'Camarón', 'Erizo', 'Piure', 'Almeja', 'Choritos']
+    },
+    {
+      nombreComun: 'Bilagay',
+      nombreCientifico: 'Cheilodactylus variegatus',
+      imageAsset: require('../imagenes/bilagay.png'),
+      caracteristicas: 'Pez de cuerpo alto y comprimido, color marrón con manchas irregulares claras. Asociado a fondos rocosos costeros.',
+      senuelos: ['Jig', 'Vinilo'],
+      carnadas: ['Gueple de mar', 'Pulga de mar', 'Pequeños mariscos']
+    },
+    {
+      nombreComun: 'Pejerrey de Mar',
+      nombreCientifico: 'Odontesthes regia',
+      imageAsset: require('../imagenes/pejerrey-de-mar.png'),
+      caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre. Aletas y cola con tonos amarillo verdoso. Franja plateada lateral notoria. Ocupa ambientes marinos diversos como estuarios y playas.',
+      senuelos: ['Microjig', 'Mosca', 'Metal vib', 'Cucharilla pequeña', 'Plumillas'],
+      carnadas: ['Gueple de mar', 'Jibia', 'Piure', 'Almeja pequeña', 'Tebo', 'Filete de pescado pequeño']
+    },
+    {
+      nombreComun: 'Blanquillo',
+      nombreCientifico: 'Prolatilus jugularis',
+      imageAsset: require('../imagenes/blanquillo.png'),
+      caracteristicas: 'Cuerpo alargado, coloración plateada a celeste claro, muy común en zonas arenosas y profundas.',
+      senuelos: ['Jigs', 'Vinilos'],
+      carnadas: ['Pulga de mar', 'Jibia', 'Piure', 'Lapa', 'Chorito', 'Filete de pescado']
+    },
+    {
+      nombreComun: 'Cabinza',
+      nombreCientifico: 'Isacia conceptionis',
+      imageAsset: require('../imagenes/cabinza.png'),
+      caracteristicas: 'Cuerpo ovalado y comprimido, con una coloración gris plateada. Muy común en la zona centro-norte de Chile.',
+      senuelos: ['Jig', 'Vinilo', 'Plumillas'],
+      carnadas: ['Pequeños trozos de camarón o filete de pescado', 'lapa', 'piure', 'mariscos pequeños']
+    },
+    {
+      nombreComun: 'Jurel',
+      nombreCientifico: 'Trachurus murphyi',
+      imageAsset: require('../imagenes/jurel.png'),
+      caracteristicas: 'Pez de cuerpo fusiforme y coloración azul verdoso. Se agrupa en cardúmenes, muy popular en pesca costera y embarcada.',
+      senuelos: ['Jig', 'Vinilo', 'Plumillas', 'Cucharas', 'Metal Vib'],
+      carnadas: ['Sardina', 'Pejerrey', 'Trozos de pescado']
+    },
+    {
+      nombreComun: 'Sierra',
+      nombreCientifico: 'Scomberomorus spp.',
+      imageAsset: require('../imagenes/sierra.png'),
+      caracteristicas: 'Pez fusiforme, rápido y depredador, con rayas verticales oscuras. Muy buscado en pesca deportiva costera.',
+      senuelos: ['Minnows grandes', 'Jigs', 'Cucharas metálicas', 'Plumas', 'Spinners'],
+      carnadas: ['Trozos de pescado', 'Sardinas enteras', 'Filete de jurel']
+    }
+  ]
+},
+{
+  id: 101,
+  nombre: 'Punta de Choros (Playas)',
+  latitude: -29.242827118764264,
+  longitude: -71.46429861130137,
+  tipo: 'Playa',
+  region: 'Coquimbo',
+  cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
+  especies: [
+    {
+      nombreComun: 'Corvina',
+      nombreCientifico: 'Cilus gilberti',
+      imageAsset: require('../imagenes/corvina.png'),
+      caracteristicas: 'Pez fusiforme, comprimido, dorso azulado, flancos celestes y vientre blanco-plateado. Aletas anaranjadas. Boca con poros sensoriales.',
+      senuelos: ["Chispa", "Minnow", "Jig", "Vinilos", "Metal vibs grandes", "Plumillas", "Bucktail"],
+      carnadas: ["Pulga de mar", "Nape", "Pejerrey", "Sardina", "Moluscos ocasionalmente (Lapa , Piure , Almeja)", "Gueple de mar (lombriz)"]
+    },
+    {
+      nombreComun: 'Lenguado Chileno',
+      nombreCientifico: 'Paralichthys adspersus',
+      imageAsset: require('../imagenes/lenguado.png'),
+      caracteristicas: 'Cuerpo ovalado, comprimido, ambos ojos en el lado izquierdo. Lado oculado café oscuro, lado ciego cremoso. Se mimetiza con el fondo.',
+      senuelos: ["Chispa", "Minnow", "Jig", "Vinilo", "Metal vibs grandes", "Plumillas", "Bucktail"],
+      carnadas: ["Pejerrey", "sardina"]
+    },
+    {
+      nombreComun: 'Cabinza',
+      nombreCientifico: 'Isacia conceptionis',
+      imageAsset: require('../imagenes/cabinza.png'),
+      caracteristicas: 'Cuerpo ovalado y comprimido, con una coloración gris plateada. Muy común en la zona centro-norte de Chile.',
+      senuelos: ["Jig", "Vinilo", "Plumillas"],
+      carnadas: ["Pequeños trozos de camarón o filete de pescado", "lapa", "piure", "mariscos pequeños"]
+    },
+    {
+      nombreComun: 'Pejerrey de Mar',
+      nombreCientifico: 'Odontesthes regia',
+      imageAsset: require('../imagenes/pejerrey-de-mar.png'),
+      caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre. Aletas y cola con tonos amarillo verdoso. Franja plateada lateral notoria. Ocupa ambientes marinos diversos como estuarios y playas.',
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"]
+    },
+    {
+      nombreComun: 'Rollizo',
+      nombreCientifico: 'Pinguipes chilensis',
+      imageAsset: require('../imagenes/rollizo.png'),
+      caracteristicas: 'Cuerpo alargado y algo comprimido, color café verdoso con puntos y manchas claras.',
+      senuelos: ["Jig", "Vinilo", "Minnow"],
+      carnadas: ["Pulga de mar", "Jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"]
+    },
+    {
+      nombreComun: 'Vieja Negra',
+      nombreCientifico: 'Graus nigra',
+      imageAsset: require('../imagenes/vieja-negra.png'),
+      caracteristicas: 'Pez robusto de coloración oscura. Presente en fondos rocosos, cuevas y bosques de algas. Muy territorial.',
+      senuelos: ["Jig", "Vinilo"],
+      carnadas: ["Lapa", "Jaiba", "Camarón", "Erizo", "Piure", "Almeja", "Choritos"]
+    },
+    {
+      nombreComun: 'Pejeperro',
+      nombreCientifico: 'Semicossyphus darwini',
+      imageAsset: require('../imagenes/pejeperro.png'),
+      caracteristicas: 'Coloración rojiza con tonos anaranjados, cuerpo robusto, mandíbulas fuertes. Presente en zonas rocosas costeras.',
+      senuelos: ["Vinilo", "Jig", "Minnow"],
+      carnadas: ["Jaiba", "Erizo", "Choro zapato", "Lapa", "Camarón", "Chitones", "Almejas"]
+    },
+    {
+      nombreComun: 'Bilagay',
+      nombreCientifico: 'Cheilodactylus variegatus',
+      imageAsset: require('../imagenes/bilagay.png'),
+      caracteristicas: 'Pez de cuerpo alto y comprimido, color marrón con manchas irregulares claras. Asociado a fondos rocosos costeros.',
+      senuelos: ["Jig", "Vinilo"],
+      carnadas: ["Gueple de mar", "Pulga de mar", "Pequeños mariscos"]
+    },
+    {
+      nombreComun: 'Jurel',
+      nombreCientifico: 'Trachurus murphyi',
+      imageAsset: require('../imagenes/jurel.png'),
+      caracteristicas: 'Pez de cuerpo fusiforme y coloración azul verdoso. Se agrupa en cardúmenes, muy popular en pesca costera y embarcada.',
+      senuelos: ["Jig", "Vinilo", "Plumillas", "Cucharas", "Metal Vib"],
+      carnadas: ["Sardina", "Pejerrey", "Trozos de pescado"]
+    },
+    {
+      nombreComun: 'Sierra',
+      nombreCientifico: 'Scomberomorus spp.',
+      imageAsset: require('../imagenes/sierra.png'),
+      caracteristicas: 'Pez fusiforme, rápido y depredador, con rayas verticales oscuras. Muy buscado en pesca deportiva costera.',
+      senuelos: ["Minnows grandes", "Jigs", "Cucharas metálicas", "Plumas", "Spinners"],
+      carnadas: ["Trozos de pescado", "Sardinas enteras", "Filete de jurel"]
+    }
+  ]
+},
+{
+  id: 102,
+  nombre: 'Playa Papudo',
+  latitude: -32.49469288736458,
+  longitude: -71.43432650881446,
+  tipo: 'Playa',
+  region: 'Valparaíso',
+  cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
+  especies: [
+    {
+      nombreComun: 'Corvina',
+      nombreCientifico: 'Cilus gilberti',
+      imageAsset: require('../imagenes/corvina.png'),
+      caracteristicas: 'Pez fusiforme, comprimido, dorso azulado, flancos celestes y vientre blanco-plateado. Aletas anaranjadas. Boca con poros sensoriales.',
+      senuelos: ["Chispa", "Minnow", "Jig", "Vinilos", "Metal vibs grandes", "Plumillas", "Bucktail"],
+      carnadas: ["Pulga de mar", "Nape", "Pejerrey", "Sardina", "Moluscos ocasionalmente (Lapa", "Piure", "Almeja)", "Gueple de mar (lombriz)"]
+    },
+    {
+      nombreComun: 'Lenguado Chileno',
+      nombreCientifico: 'Paralichthys adspersus',
+      imageAsset: require('../imagenes/lenguado.png'),
+      caracteristicas: 'Cuerpo ovalado, comprimido, ambos ojos en el lado izquierdo. Lado oculado café oscuro, lado ciego cremoso. Se mimetiza con el fondo.',
+      senuelos: ["Chispa", "Minnow", "Jig", "Vinilo", "Metal vibs grandes", "Plumillas", "Bucktail"],
+      carnadas: ["Pejerrey", "sardina"]
+    },
+    {
+      nombreComun: 'Pejerrey de Mar',
+      nombreCientifico: 'Odontesthes regia',
+      imageAsset: require('../imagenes/pejerrey-de-mar.png'),
+      caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre. Aletas y cola con tonos amarillo verdoso. Franja plateada lateral notoria. Ocupa ambientes marinos diversos como estuarios y playas.',
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"]
+    },
+    {
+      nombreComun: 'Cabinza',
+      nombreCientifico: 'Isacia conceptionis',
+      imageAsset: require('../imagenes/cabinza.png'),
+      caracteristicas: 'Cuerpo ovalado y comprimido, con una coloración gris plateada. Muy común en la zona centro-norte de Chile.',
+      senuelos: ["Jig", "Vinilo", "Plumillas"],
+      carnadas: ["Pequeños trozos de camarón o filete de pescado", "lapa", "piure", "mariscos pequeños"]
+    },
+    {
+      nombreComun: 'Rollizo',
+      nombreCientifico: 'Pinguipes chilensis',
+      imageAsset: require('../imagenes/rollizo.png'),
+      caracteristicas: 'Cuerpo alargado y algo comprimido, color café verdoso con puntos y manchas claras.',
+      senuelos: ["Jig", "Vinilo", "Minnow"],
+      carnadas: ["Pulga de mar", "Jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"]
+    },
+    {
+      nombreComun: 'Vieja Negra',
+      nombreCientifico: 'Graus nigra',
+      imageAsset: require('../imagenes/vieja-negra.png'),
+      caracteristicas: 'Pez robusto de coloración oscura. Presente en fondos rocosos, cuevas y bosques de algas. Muy territorial.',
+      senuelos: ["Jig", "Vinilo"],
+      carnadas: ["Lapa", "Jaiba", "Camarón", "Erizo", "Piure", "Almeja", "Choritos"]
+    },
+    {
+      nombreComun: 'Pejeperro',
+      nombreCientifico: 'Semicossyphus darwini',
+      imageAsset: require('../imagenes/pejeperro.png'),
+      caracteristicas: 'Coloración rojiza con tonos anaranjados, cuerpo robusto, mandíbulas fuertes. Presente en zonas rocosas costeras.',
+      senuelos: ["Vinilo", "Jig", "Minnow"],
+      carnadas: ["Jaiba", "Erizo", "Choro zapato", "Lapa", "Camarón", "Chitones", "Almejas"]
+    },
+    {
+      nombreComun: 'Bilagay',
+      nombreCientifico: 'Cheilodactylus variegatus',
+      imageAsset: require('../imagenes/bilagay.png'),
+      caracteristicas: 'Pez de cuerpo alto y comprimido, color marrón con manchas irregulares claras. Asociado a fondos rocosos costeros.',
+      senuelos: ["Jig", "Vinilo"],
+      carnadas: ["Gueple de mar", "Pulga de mar", "Pequeños mariscos"]
+    },
+    {
+      nombreComun: 'Sargo',
+      nombreCientifico: 'Anisotremus scapularis',
+      imageAsset: require('../imagenes/sargo.png'),
+      caracteristicas: 'Cuerpo comprimido y de gran altura, color gris plateado con una mancha negra en el reborde del opérculo.',
+      senuelos: ["Jigs", "Vinilos", "Plumillas", "Minnows"],
+      carnadas: ["Pulga de mar", "Erizo", "Choro", "Machita", "Camarón de roca", "Piures", "Almeja"]
+    },
+    {
+      nombreComun: 'Tomoyo',
+      nombreCientifico: 'Labrisomus philippii',
+      imageAsset: require('../imagenes/tomoyo.png'),
+      caracteristicas: 'Peces de cuerpo alargado. Cirros presentes alrededor de los ojos. Habita sectores del intermareal rocoso.',
+      senuelos: ["Jig", "Vinilo", "Minnow"],
+      carnadas: ["Pulga de mar", "Pequeños mariscos", "Camarón de roca"]
+    }
+  ]
+},
+{
+  id: 103,
+  nombre: 'Muelle y Muro de Lebu',
+  latitude: -37.5943894918047,
+  longitude: -73.66523564810774,
+  tipo: 'Muelle',
+  region: 'Biobío',
+  cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
+  especies: [
+    {
+      nombreComun: 'Róbalo',
+      nombreCientifico: 'Eleginops maclovinus',
+      imageAsset: require('../imagenes/robalo.png'),
+      caracteristicas: 'Especie emblemática de desembocaduras y zonas estuarinas. Cuerpo alargado, busca la mezcla de agua dulce y salada.',
+      senuelos: ["Vinilos", "Metal vibs", "Minnows", "Plumillas", "Cucharas"],
+      carnadas: ["Gueple de mar", "Nape", "Almeja", "Jibia", "Camarón", "Pulga de mar", "Camarón de río/mar", "Pancora", "Lombriz de tierra", "Lapa"]
+    },
+    {
+      nombreComun: 'Pejerrey de Mar',
+      nombreCientifico: 'Odontesthes regia',
+      imageAsset: require('../imagenes/pejerrey-de-mar.png'),
+      caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre. Aletas y cola con tonos amarillo verdoso. Franja plateada lateral notoria. Ocupa ambientes marinos diversos como estuarios y playas.',
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"]
+    },
+    {
+      nombreComun: 'Rollizo',
+      nombreCientifico: 'Pinguipes chilensis',
+      imageAsset: require('../imagenes/rollizo.png'),
+      caracteristicas: 'Cuerpo alargado y algo comprimido, color café verdoso con puntos y manchas claras.',
+      senuelos: ["Jig", "Vinilo", "Minnow"],
+      carnadas: ["Pulga de mar", "Jibia", "Piure", "Lapa", "Chorito", "Machuelo", "Pancora blanda"]
+    },
+    {
+      nombreComun: 'Sierra',
+      nombreCientifico: 'Scomberomorus spp.',
+      imageAsset: require('../imagenes/sierra.png'),
+      caracteristicas: 'Pez fusiforme, rápido y depredador, con rayas verticales oscuras. Muy buscado en pesca deportiva costera.',
+      senuelos: ["Minnows grandes", "Jigs", "Cucharas metálicas", "Plumas", "Spinners"],
+      carnadas: ["Trozos de pescado", "Sardinas enteras", "Filete de jurel"]
+    },
+    {
+      nombreComun: 'Cabrilla Común',
+      nombreCientifico: 'Sebastes capensis',
+      imageAsset: require('../imagenes/cabrilla.png'),
+      caracteristicas: 'Cuerpo robusto, coloración rojiza con manchas más claras, asociado a fondos rocosos. Se captura desde roqueríos y muelles costeros.',
+      senuelos: ["Jig", "Vinilo"],
+      carnadas: ["Lapa", "Jaiba", "Camarón", "Erizo", "Piure", "Almeja", "Choritos", "Filete de pescado"]
+    }
+  ]
+},
+{
+  id: 104,
+  nombre: 'Playa Lloncao',
+  latitude: -37.909690757801926,
+  longitude: -73.52116239213647,
+  tipo: 'Playa',
+  region: 'Biobío',
+  cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
+  especies: [
+    {
+      nombreComun: 'Róbalo',
+      nombreCientifico: 'Eleginops maclovinus',
+      imageAsset: require('../imagenes/robalo.png'),
+      caracteristicas: 'Especie emblemática de desembocaduras y zonas estuarinas. Cuerpo alargado, busca la mezcla de agua dulce y salada.',
+      senuelos: ["Vinilos", "Metal vibs", "Minnows", "Plumillas", "Cucharas"],
+      carnadas: ["Gueple de mar", "Nape", "Almeja", "Jibia", "Camarón", "Pulga de mar", "Camarón de río/mar", "Pancora", "Lombriz de tierra", "Lapa"]
+    },
+    {
+      nombreComun: 'Corvina',
+      nombreCientifico: 'Cilus gilberti',
+      imageAsset: require('../imagenes/corvina.png'),
+      caracteristicas: 'Pez fusiforme, comprimido, dorso azulado, flancos celestes y vientre blanco-plateado. Aletas anaranjadas. Boca con poros sensoriales.',
+      senuelos: ["Chispa", "Minnow", "Jig", "Vinilos", "Metal vibs grandes", "Plumillas", "Bucktail"],
+      carnadas: ["Pulga de mar", "Nape", "Pejerrey", "Sardina", "Moluscos ocasionalmente (Lapa", "Piure", "Almeja)", "Gueple de mar (lombriz)"]
+    },
+    {
+      nombreComun: 'Pejerrey de Mar',
+      nombreCientifico: 'Odontesthes regia',
+      imageAsset: require('../imagenes/pejerrey-de-mar.png'),
+      caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre. Aletas y cola con tonos amarillo verdoso. Franja plateada lateral notoria. Ocupa ambientes marinos diversos como estuarios y playas.',
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"]
+    }
+  ]
+},
+{
+  id: 105,
+  nombre: 'Playa Mehuín',
+  latitude: -39.430394648630525,
+  longitude: -73.2157188451921,
+  tipo: 'Playa',
+  region: 'Los Ríos',
+  cuota: 'Consultar la información actualizada de SERNAPESCA para temporadas, cuotas y regulaciones específicas.',
+  imagenFondoSecciones: require('../imagenes/textura-generica-playas.jpg'),
+  especies: [
+    {
+      nombreComun: 'Róbalo',
+      nombreCientifico: 'Eleginops maclovinus',
+      imageAsset: require('../imagenes/robalo.png'),
+      caracteristicas: 'Especie emblemática de desembocaduras y zonas estuarinas. Cuerpo alargado, busca la mezcla de agua dulce y salada.',
+      senuelos: ["Vinilos", "Metal vibs", "Minnows", "Plumillas", "Cucharas"],
+      carnadas: ["Gueple de mar", "Nape", "Almeja", "Jibia", "Camarón", "Pulga de mar", "Camarón de río/mar", "Pancora", "Lombriz de tierra", "Lapa"]
+    },
+    {
+      nombreComun: 'Corvina',
+      nombreCientifico: 'Cilus gilberti',
+      imageAsset: require('../imagenes/corvina.png'),
+      caracteristicas: 'Pez fusiforme, comprimido, dorso azulado, flancos celestes y vientre blanco-plateado. Aletas anaranjadas. Boca con poros sensoriales.',
+      senuelos: ["Chispa", "Minnow", "Jig", "Vinilos", "Metal vibs grandes", "Plumillas", "Bucktail"],
+      carnadas: ["Pulga de mar", "Nape", "Pejerrey", "Sardina", "Moluscos ocasionalmente (Lapa", "Piure", "Almeja)", "Gueple de mar (lombriz)"]
+    },
+    {
+      nombreComun: 'Pejerrey de Mar',
+      nombreCientifico: 'Odontesthes regia',
+      imageAsset: require('../imagenes/pejerrey-de-mar.png'),
+      caracteristicas: 'Color gris pizarra, plateado oscuro en el lomo, y claro en el vientre. Aletas y cola con tonos amarillo verdoso. Franja plateada lateral notoria. Ocupa ambientes marinos diversos como estuarios y playas.',
+      senuelos: ["Microjig", "Mosca", "Metal vib", "Cucharilla pequeña", "Plumillas"],
+      carnadas: ["Gueple de mar", "Jibia", "Piure", "Almeja pequeña", "Tebo", "Filete de pescado pequeño"]
+    },
+    {
+      nombreComun: 'Salmón Coho (Plateado)',
+      nombreCientifico: 'Oncorhynchus kisutch',
+      imageAsset: require('../imagenes/salmon-coho.png'),
+      caracteristicas: 'Coloración plateada brillante, con cuerpo fusiforme. En época reproductiva desarrolla tonos rojizos. Muy presente en desembocaduras del sur.',
+      senuelos: ["Cucharas", "Spinners grandes", "Minnows", "Jiggs", "Metal Vib", "Vinilo", "Caimán", "Moscas"],
+      carnadas: ["Carnadas vivas prohibidas por regla general para salmónidos (Consultar regulaciones actualizadas de Sernapesca)"]
+    },
+    {
+      nombreComun: 'Salmón Chinook (Rey)',
+      nombreCientifico: 'Oncorhynchus tshawytscha',
+      imageAsset: require('../imagenes/salmon-chinook.png'),
+      caracteristicas: 'Gran tamaño, mandíbula prominente en época de desove. Muy valorado en pesca deportiva en el sur de Chile.',
+      senuelos: ["Cucharas", "Spinners grandes", "Minnows", "Jigs", "Metal Vib", "Vinilo", "Caimán", "Moscas"],
+      carnadas: ["Carnadas vivas prohibidas por regla general para salmónidos (Consultar regulaciones actualizadas de Sernapesca)"]
+    }
+  ]
 }
+
+
+
 
 ];
 
 
 
 
+
+
+  
+
+  
+  
   
 
   
